@@ -1,0 +1,84 @@
+# bsub -q x86_24h -g /amritas8/_/default -M 153600 -hl -n 1 -R \
+    rusage[mem=162816,ngpus_excl_p=1] affinity[core(1)] -Is python \
+    run_train.py --load_checkpoint_path 10 --dump_checkpoint_path 10 \
+    --dump_data_path 1 --cluster_classify 0 --worker_number 10
+Job <151159> is submitted to queue <x86_24h>.
+| options
+run_dir: /dccstor/cssblr/amrita/Concept_Catalog_VQA/multiclass_unilabel_cce_synset
+image_dir: /dccstor/cssblr/amrita/VisualGenome/data/VG_100K
+dataset: visualgenome
+load_checkpoint_path: 10
+dump_checkpoint_path: 10
+dump_data_path: 1
+gpu_ids: [0]
+glove_embedding_file: synset_glove_emb_filtered_datasize100.pkl
+image_concepts_glove_emb_file: image_concepts_glove_embedding_filtered_datasize100.pkl
+vocab_file: synset_concepts_final.json
+cluster_file: synset_concept_clusters_final.json
+seed: 1
+batch_size: 200
+learning_rate: 0.005
+input_channels: 3
+image_feature_size: 512
+hidden_size: 512
+common_embedding_size: 512
+glove_embedding_size: 100
+fc1_size: 1000
+fc2_size: 1000
+num_att_layers: 2
+worker_number: 10
+preprocessed_data_dir: /dccstor/cssblr/amrita/VisualGenome/data/preprocessed
+preprocessed_pos_data: synset_regions_filtered_datasize100.pkl
+max_iters: 100000
+max_epochs: 10
+display_every: 1
+checkpoint_every: 2000
+weighted_random_sampler: 1
+shuffle_data: 1
+sort_by: none
+cluster_classify: 0
+vocab size  402
+cluster size  183
+Preprocessed positive and negative data in  72.10726618766785 secs
+length  183
+<class 'datasets.visual_genome_attribute_object.VisualGenomeAttributeCatalog'>
+Starting cluster ( 90 ):   ['note', 'writing', 'letter', 'word', 'text', 'spoke', 'page']
+<class 'datasets.visual_genome_attribute_object.VisualGenomeAttributeCatalog'>
+number of classes  1
+Number of classes ==  1, hence skipping this cluster
+Starting cluster ( 91 ):   ['label', 'sleeve', 'booklet', 'gummed_label', 'billboard', 'liner', 'hip', 'groove', 'phonograph_record', 'jam']
+<class 'datasets.visual_genome_attribute_object.VisualGenomeAttributeCatalog'>
+number of classes  1
+Number of classes ==  1, hence skipping this cluster
+Starting cluster ( 92 ):   ['grain', 'rice', 'corn', 'oil']
+<class 'datasets.visual_genome_attribute_object.VisualGenomeAttributeCatalog'>
+number of classes  1
+Number of classes ==  1, hence skipping this cluster
+Starting cluster ( 93 ):   ['water', 'droplet', 'sink', 'water_faucet', 'drain', 'cooler']
+<class 'datasets.visual_genome_attribute_object.VisualGenomeAttributeCatalog'>
+number of classes  1
+Number of classes ==  1, hence skipping this cluster
+Starting cluster ( 94 ):   ['cadmium', 'sodium_carbonate', 'phosphorus', 'acid', 'nitrogen', 'oxygen', 'helium']
+<class 'datasets.visual_genome_attribute_object.VisualGenomeAttributeCatalog'>
+number of classes  1
+Number of classes ==  1, hence skipping this cluster
+Starting cluster ( 95 ):   ['cup', 'star', 'fan', 'player', 'game', 'tennis_player', 'team', 'coach', 'soccer_player', 'referee', 'umpire']
+<class 'datasets.visual_genome_attribute_object.VisualGenomeAttributeCatalog'>
+number of classes  1
+Number of classes ==  1, hence skipping this cluster
+Starting cluster ( 96 ):   ['dish', 'bread', 'cake', 'cupcake', 'menu', 'dough', 'fold', 'muffin', 'pie', 'pastry', 'dessert', 'condiment', 'birthday_cake', 'gravy', 'toast', 'garnish', 'parsley', 'chef']
+<class 'datasets.visual_genome_attribute_object.VisualGenomeAttributeCatalog'>
+number of classes  1
+Number of classes ==  1, hence skipping this cluster
+Starting cluster ( 97 ):   ['float', 'plain', 'beacon', 'dash', 'feeder', 'crest', 'elf']
+<class 'datasets.visual_genome_attribute_object.VisualGenomeAttributeCatalog'>
+number of classes  1
+Number of classes ==  1, hence skipping this cluster
+Starting cluster ( 98 ):   ['air', 'outside', 'outdoors', 'center', 'home', 'shelter', 'inside']
+<class 'datasets.visual_genome_attribute_object.VisualGenomeAttributeCatalog'>
+number of classes  1
+Number of classes ==  1, hence skipping this cluster
+Starting cluster ( 99 ):   ['decoration', 'mural', 'artwork', 'graffito', 'poster']
+<class 'datasets.visual_genome_attribute_object.VisualGenomeAttributeCatalog'>
+number of classes  1
+Number of classes ==  1, hence skipping this cluster

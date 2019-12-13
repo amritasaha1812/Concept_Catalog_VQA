@@ -1,0 +1,2220 @@
+{
+ "0": [
+  "clock.n.01",
+  "clock_time.n.01",
+  "alarm_clock.n.01",
+  "clock_face.n.01",
+  "clock_tower.n.01"
+ ],
+ "1": [
+  "wristlet.n.01",
+  "watch.n.01",
+  "wristwatch.n.01",
+  "watchband.n.01",
+  "wristband.n.01"
+ ],
+ "2": [
+  "hour_hand.n.01"
+ ],
+ "3": [
+  "scale.n.01"
+ ],
+ "4": [
+  "weathervane.n.01"
+ ],
+ "5": [
+  "signal.n.01",
+  "microphone.n.01"
+ ],
+ "6": [
+  "wall.n.01",
+  "stone_wall.n.01",
+  "wallpaper.n.01"
+ ],
+ "7": [
+  "block.n.01"
+ ],
+ "8": [
+  "pillar.n.01"
+ ],
+ "9": [
+  "church.n.01",
+  "steeple.n.01",
+  "tower.n.01",
+  "pylon.n.01"
+ ],
+ "10": [
+  "building.n.01"
+ ],
+ "11": [
+  "telephone_pole.n.01",
+  "lamppost.n.01",
+  "streetlight.n.01"
+ ],
+ "12": [
+  "street_sign.n.01",
+  "stop.n.01",
+  "sign.n.02",
+  "signboard.n.01",
+  "signpost.n.01"
+ ],
+ "13": [
+  "scoreboard.n.01"
+ ],
+ "14": [
+  "stoplight.n.01",
+  "traffic_light.n.01"
+ ],
+ "15": [
+  "street.n.01",
+  "driveway.n.01"
+ ],
+ "16": [
+  "bus_stop.n.01",
+  "intersection.n.01",
+  "crossing.n.05",
+  "cross.n.01",
+  "road.n.01"
+ ],
+ "17": [
+  "walk.n.05",
+  "sidewalk.n.01",
+  "side.n.01",
+  "wayside.n.01",
+  "pedestrian.n.01"
+ ],
+ "18": [
+  "manhole_cover.n.01",
+  "manhole.n.01"
+ ],
+ "19": [
+  "bag.n.06",
+  "baggage.n.01",
+  "shopping_bag.n.01"
+ ],
+ "20": [
+  "backpack.n.01",
+  "package.n.01"
+ ],
+ "21": [
+  "briefcase.n.01",
+  "trunk.n.01"
+ ],
+ "22": [
+  "wallet.n.01"
+ ],
+ "23": [
+  "headlight.n.01",
+  "glare.n.01"
+ ],
+ "24": [
+  "windshield.n.01",
+  "windshield_wiper.n.01",
+  "wiper.n.01"
+ ],
+ "25": [
+  "brick.n.01",
+  "tile.n.01",
+  "grout.n.01",
+  "concrete.n.01",
+  "facade.n.01",
+  "slab.n.01",
+  "marble.n.01",
+  "floor.n.01",
+  "asphalt.n.01",
+  "pavement.n.01"
+ ],
+ "26": [
+  "turf.n.01",
+  "rug.n.01",
+  "pad.n.01"
+ ],
+ "27": [
+  "padding.n.01"
+ ],
+ "28": [
+  "mat.n.01",
+  "place_mat.n.01",
+  "tablecloth.n.01"
+ ],
+ "29": [
+  "door.n.01",
+  "gate.n.01"
+ ],
+ "30": [
+  "railing.n.01",
+  "safety_rail.n.01"
+ ],
+ "31": [
+  "hallway.n.01",
+  "doorway.n.01",
+  "entrance.n.01"
+ ],
+ "32": [
+  "porch.n.01",
+  "balcony.n.01"
+ ],
+ "33": [
+  "opening.n.01",
+  "open.n.01"
+ ],
+ "34": [
+  "dais.n.01"
+ ],
+ "35": [
+  "cornice.n.01",
+  "brim.n.01",
+  "rim.n.01",
+  "edge.n.01",
+  "corner.n.01",
+  "lining.n.01"
+ ],
+ "36": [
+  "shirt.n.01",
+  "vest.n.01",
+  "dress_shirt.n.01",
+  "blouse.n.01",
+  "tank_top.n.01"
+ ],
+ "37": [
+  "collar.n.01"
+ ],
+ "38": [
+  "button.n.01",
+  "bead.n.01"
+ ],
+ "39": [
+  "scarf.n.01"
+ ],
+ "40": [
+  "life_preserver.n.01",
+  "life_jacket.n.01"
+ ],
+ "41": [
+  "sweater.n.01",
+  "sweatshirt.n.01",
+  "cardigan.n.01"
+ ],
+ "42": [
+  "parka.n.01",
+  "ski_parka.n.01",
+  "jacket.n.01",
+  "lapel.n.01"
+ ],
+ "43": [
+  "coat.n.01",
+  "blazer.n.01",
+  "uniform.n.01",
+  "suit.n.01",
+  "mantle.n.01"
+ ],
+ "44": [
+  "jump_suit.n.01"
+ ],
+ "45": [
+  "robe.n.01",
+  "gown.n.01",
+  "skirt.n.01",
+  "dress.n.01"
+ ],
+ "46": [
+  "bicycle.n.01",
+  "motorcycle.n.01",
+  "moped.n.01",
+  "minibike.n.01"
+ ],
+ "47": [
+  "car.n.01",
+  "streetcar.n.01",
+  "vehicle.n.01",
+  "passenger_car.n.01"
+ ],
+ "48": [
+  "bus.n.01",
+  "van.n.05",
+  "truck.n.01",
+  "motor.n.01",
+  "school_bus.n.01"
+ ],
+ "49": [
+  "driver.n.01",
+  "passenger.n.01"
+ ],
+ "50": [
+  "pickup.n.01",
+  "camper.n.01",
+  "tractor.n.01",
+  "cart.n.01",
+  "buggy.n.01",
+  "crane.n.01"
+ ],
+ "51": [
+  "parking_meter.n.01",
+  "parking.n.01",
+  "parking_lot.n.01"
+ ],
+ "52": [
+  "distance.n.01",
+  "fence.n.01",
+  "foot.n.01",
+  "yard.n.01",
+  "meter.n.01"
+ ],
+ "53": [
+  "shoe.n.01",
+  "boot.n.01",
+  "sole.n.01",
+  "sandal.n.01",
+  "gym_shoe.n.01"
+ ],
+ "54": [
+  "shoelace.n.01"
+ ],
+ "55": [
+  "apparel.n.01",
+  "clothing.n.01"
+ ],
+ "56": [
+  "bedclothes.n.01",
+  "pajama.n.01",
+  "negligee.n.01",
+  "hosiery.n.01"
+ ],
+ "57": [
+  "trouser.n.01",
+  "sweat_pants.n.01",
+  "jean.n.01",
+  "legging.n.01"
+ ],
+ "58": [
+  "stocking.n.01",
+  "sock.n.01",
+  "tights.n.01"
+ ],
+ "59": [
+  "short_pants.n.01"
+ ],
+ "60": [
+  "pocket.n.01"
+ ],
+ "61": [
+  "necklace.n.01",
+  "singlet.n.01"
+ ],
+ "62": [
+  "necktie.n.01",
+  "bow_tie.n.01",
+  "bow.n.01",
+  "knot.n.01"
+ ],
+ "63": [
+  "bib.n.01"
+ ],
+ "64": [
+  "pin.n.01",
+  "earring.n.01"
+ ],
+ "65": [
+  "helmet.n.02",
+  "visor.n.01"
+ ],
+ "66": [
+  "cuff.n.01"
+ ],
+ "67": [
+  "spectacles.n.01",
+  "spectacle.n.01"
+ ],
+ "68": [
+  "monocle.n.01"
+ ],
+ "69": [
+  "sunglasses.n.01",
+  "goggles.n.01"
+ ],
+ "70": [
+  "blind.n.01"
+ ],
+ "71": [
+  "lens.n.01"
+ ],
+ "72": [
+  "bandanna.n.01",
+  "headband.n.01",
+  "sweatband.n.01"
+ ],
+ "73": [
+  "apron.n.01",
+  "handkerchief.n.01",
+  "napkin.n.01"
+ ],
+ "74": [
+  "crown.n.01",
+  "comb.n.01"
+ ],
+ "75": [
+  "arm.n.01",
+  "hand.n.01",
+  "wrist.n.01",
+  "fingernail.n.01",
+  "finger.n.01",
+  "thumb.n.01",
+  "knuckle.n.01",
+  "elbow.n.01",
+  "elbow_pad.n.01"
+ ],
+ "76": [
+  "face.n.01",
+  "face_mask.n.01",
+  "head.n.01",
+  "nostril.n.01",
+  "freckle.n.01"
+ ],
+ "77": [
+  "body.n.01"
+ ],
+ "78": [
+  "eyelid.n.01",
+  "chin.n.01",
+  "braid.n.01",
+  "tattoo.n.01"
+ ],
+ "79": [
+  "leg.n.01",
+  "limb.n.02",
+  "knee.n.01",
+  "ankle.n.01",
+  "knee_pad.n.01"
+ ],
+ "80": [
+  "heel.n.01"
+ ],
+ "81": [
+  "toe.n.01",
+  "toenail.n.01"
+ ],
+ "82": [
+  "calf.n.01",
+  "stomach.n.01",
+  "lap.n.01",
+  "thigh.n.01",
+  "underbelly.n.01"
+ ],
+ "83": [
+  "knife.n.01",
+  "blade.n.01"
+ ],
+ "84": [
+  "handle.n.01",
+  "machine.n.01",
+  "hand_blower.n.01"
+ ],
+ "85": [
+  "stick.n.01",
+  "broom.n.01"
+ ],
+ "86": [
+  "toothpick.n.01",
+  "cigarette.n.01"
+ ],
+ "87": [
+  "tool.n.01",
+  "nail.n.01"
+ ],
+ "88": [
+  "tree.n.01",
+  "christmas_bush.n.01",
+  "hedge.n.01",
+  "leave.n.01",
+  "frond.n.01",
+  "plant.n.01",
+  "leaf.n.01",
+  "bark.n.01",
+  "root.n.01",
+  "farm.n.01",
+  "planter.n.02",
+  "acerate_leaf.n.01"
+ ],
+ "89": [
+  "flower.n.02",
+  "floret.n.01",
+  "petal.n.01",
+  "tulip.n.01",
+  "daisy.n.01"
+ ],
+ "90": [
+  "shade.n.01",
+  "shadow.n.01",
+  "canopy.n.01"
+ ],
+ "91": [
+  "greenery.n.01",
+  "vegetation.n.01",
+  "grass.n.01",
+  "lawn.n.01"
+ ],
+ "92": [
+  "path.n.04",
+  "traffic.n.01",
+  "roadblock.n.02",
+  "lane.n.01"
+ ],
+ "93": [
+  "roadway.n.01",
+  "way.n.05",
+  "highway.n.01"
+ ],
+ "94": [
+  "overpass.n.01",
+  "ramp.n.01"
+ ],
+ "95": [
+  "set.n.05",
+  "group.n.01",
+  "bunch.n.01",
+  "batch.n.02"
+ ],
+ "96": [
+  "row.n.01",
+  "stack.n.01",
+  "line.n.01"
+ ],
+ "97": [
+  "there.n.01",
+  "pair.n.01",
+  "bit.n.02"
+ ],
+ "98": [
+  "back.n.01",
+  "rear.n.01",
+  "bottom.n.01",
+  "down.n.01",
+  "end.n.01"
+ ],
+ "99": [
+  "small.n.01",
+  "short.n.01"
+ ],
+ "100": [
+  "large.n.01"
+ ],
+ "101": [
+  "two.n.01",
+  "second.n.01",
+  "median.n.01"
+ ],
+ "102": [
+  "three.n.01"
+ ],
+ "103": [
+  "ten.n.01"
+ ],
+ "104": [
+  "one-half.n.01"
+ ],
+ "105": [
+  "one.n.01"
+ ],
+ "106": [
+  "five.n.01"
+ ],
+ "107": [
+  "four.n.01"
+ ],
+ "108": [
+  "nine.n.01"
+ ],
+ "109": [
+  "twelve.n.01"
+ ],
+ "110": [
+  "six.n.01"
+ ],
+ "111": [
+  "numeral.n.01"
+ ],
+ "112": [
+  "roman_numeral.n.01"
+ ],
+ "113": [
+  "swimsuit.n.01",
+  "outfit.n.01",
+  "bikini.n.01",
+  "costume.n.01"
+ ],
+ "114": [
+  "paneling.n.01",
+  "panel.n.01",
+  "decal.n.01",
+  "skylight.n.01",
+  "ceiling.n.01"
+ ],
+ "115": [
+  "smokestack.n.01",
+  "lodger.n.01",
+  "menagerie.n.02"
+ ],
+ "116": [
+  "gusto.n.01",
+  "good.n.01"
+ ],
+ "117": [
+  "thing.n.01",
+  "item.n.01",
+  "merchandise.n.01",
+  "produce.n.01",
+  "object.n.01"
+ ],
+ "118": [
+  "bridge.n.01",
+  "boardwalk.n.01",
+  "barrier.n.01",
+  "tunnel.n.01"
+ ],
+ "119": [
+  "window.n.01",
+  "pane.n.01",
+  "glass.n.01",
+  "mirror.n.01",
+  "window_frame.n.01",
+  "rearview_mirror.n.01"
+ ],
+ "120": [
+  "curtain.n.01"
+ ],
+ "121": [
+  "pole.n.01",
+  "ski_pole.n.01",
+  "ski.n.01",
+  "ski_tow.n.01",
+  "skiing.n.01",
+  "ski_slope.n.01"
+ ],
+ "122": [
+  "skateboard.n.01",
+  "sled.n.01",
+  "snowboard.n.01",
+  "skate.n.01"
+ ],
+ "123": [
+  "snowflake.n.01",
+  "snow.n.01"
+ ],
+ "124": [
+  "ski_boot.n.01",
+  "cleat.n.01"
+ ],
+ "125": [
+  "light.n.09",
+  "sun.n.01",
+  "day.n.04",
+  "sunlight.n.01",
+  "sunset.n.01",
+  "blue_sky.n.01",
+  "sky.n.01"
+ ],
+ "126": [
+  "moon.n.01",
+  "night.n.01"
+ ],
+ "127": [
+  "cloud.n.01",
+  "smoke.n.01",
+  "fog.n.01",
+  "rain.n.01",
+  "thunderbolt.n.01"
+ ],
+ "128": [
+  "mercantile_establishment.n.01",
+  "mark.n.01",
+  "bank.n.01",
+  "part.n.01",
+  "date.n.01",
+  "business.n.01",
+  "copyright.n.01",
+  "trade_name.n.01"
+ ],
+ "129": [
+  "branch.n.01",
+  "branchlet.n.01",
+  "post.n.01",
+  "form.n.03",
+  "section.n.01"
+ ],
+ "130": [
+  "unit_of_measurement.n.01",
+  "monetary_value.n.01"
+ ],
+ "131": [
+  "keyboard.n.01",
+  "computer_keyboard.n.01",
+  "mousepad.n.01"
+ ],
+ "132": [
+  "computer_monitor.n.01",
+  "blackboard.n.01",
+  "computer_screen.n.01",
+  "monitor.n.04"
+ ],
+ "133": [
+  "printer.n.01",
+  "videodisk.n.01",
+  "disk.n.01",
+  "laptop.n.01",
+  "computer.n.01",
+  "desktop.n.01"
+ ],
+ "134": [
+  "notebook.n.01",
+  "computer_game.n.01",
+  "electronics.n.01",
+  "device.n.01",
+  "ipod.n.01",
+  "chip.n.04",
+  "tablet.n.01"
+ ],
+ "135": [
+  "random-access_memory.n.01",
+  "information_technology.n.01",
+  "apple.n.01",
+  "google.n.01",
+  "link.n.01",
+  "internet.n.01",
+  "web_site.n.01",
+  "information.n.01",
+  "map.n.01"
+ ],
+ "136": [
+  "telephone.n.01",
+  "cellular_telephone.n.01"
+ ],
+ "137": [
+  "remote_control.n.01",
+  "equipment.n.01"
+ ],
+ "138": [
+  "earphone.n.01",
+  "speaker.n.01"
+ ],
+ "139": [
+  "mouse.n.04"
+ ],
+ "140": [
+  "dog.n.01",
+  "puppy.n.01"
+ ],
+ "141": [
+  "cat.n.01",
+  "kitten.n.01"
+ ],
+ "142": [
+  "monkey.n.01"
+ ],
+ "143": [
+  "ox.n.01",
+  "bull.n.05",
+  "cow.n.01"
+ ],
+ "144": [
+  "goat.n.01",
+  "sheep.n.01",
+  "cattle.n.01",
+  "herd.n.01"
+ ],
+ "145": [
+  "horse.n.01",
+  "donkey.n.01",
+  "pony.n.01"
+ ],
+ "146": [
+  "hog.n.03",
+  "runt.n.01"
+ ],
+ "147": [
+  "paw.n.01",
+  "claw.n.01"
+ ],
+ "148": [
+  "friend.n.01",
+  "girl.n.01",
+  "worker.n.01",
+  "groom.n.01",
+  "homo.n.02",
+  "people.n.01",
+  "student.n.01",
+  "adolescent.n.01",
+  "male.n.01",
+  "female.n.01",
+  "adult.n.01",
+  "man.n.01",
+  "lady.n.01",
+  "guy.n.01",
+  "person.n.01",
+  "tourist.n.01",
+  "chump.n.01"
+ ],
+ "149": [
+  "family.n.01",
+  "couple.n.01"
+ ],
+ "150": [
+  "mother.n.01",
+  "ma.n.01"
+ ],
+ "151": [
+  "woman.n.01",
+  "bride.n.01"
+ ],
+ "152": [
+  "baby.n.01",
+  "male_child.n.01",
+  "child.n.01",
+  "toddler.n.01"
+ ],
+ "153": [
+  "hair.n.01",
+  "mane.n.01",
+  "ponytail.n.01"
+ ],
+ "154": [
+  "tuft.n.01",
+  "hair's-breadth.n.01"
+ ],
+ "155": [
+  "mustache.n.01"
+ ],
+ "156": [
+  "beard.n.01",
+  "goatee.n.01"
+ ],
+ "157": [
+  "cigarette.n.01"
+ ],
+ "158": [
+  "strap.n.01",
+  "socket.n.01",
+  "waist.n.01"
+ ],
+ "159": [
+  "buckle.n.01"
+ ],
+ "160": [
+  "calendar.n.01",
+  "logo.n.01",
+  "bin.n.01",
+  "ad.n.01",
+  "name.n.01",
+  "name_tag.n.01",
+  "ring.n.02",
+  "tag.n.01",
+  "belt.n.01"
+ ],
+ "161": [
+  "cabinet.n.01",
+  "counter.n.01",
+  "case.n.19"
+ ],
+ "162": [
+  "board.n.02",
+  "office.n.01",
+  "control_panel.n.01"
+ ],
+ "163": [
+  "control.n.01",
+  "measure.n.01",
+  "phase.n.01"
+ ],
+ "164": [
+  "bill.n.01",
+  "support.n.01"
+ ],
+ "165": [
+  "drawer.n.01",
+  "chest_of_drawers.n.01",
+  "cupboard.n.01",
+  "bookcase.n.01"
+ ],
+ "166": [
+  "patio.n.01",
+  "countertop.n.01"
+ ],
+ "167": [
+  "dishwasher.n.01"
+ ],
+ "168": [
+  "fireplace.n.01",
+  "hovel.n.01",
+  "grate.n.01"
+ ],
+ "169": [
+  "sill.n.01",
+  "windowsill.n.01"
+ ],
+ "170": [
+  "shelf.n.01",
+  "bookshelf.n.01",
+  "mantel.n.01"
+ ],
+ "171": [
+  "roof.n.01",
+  "rooftop.n.01"
+ ],
+ "172": [
+  "desk.n.01",
+  "chair.n.01",
+  "bench.n.01",
+  "stool.n.01",
+  "lawn_chair.n.01",
+  "seating.n.01",
+  "deck.n.01",
+  "love_seat.n.01",
+  "platform.n.01",
+  "deck_chair.n.01",
+  "seat.n.01"
+ ],
+ "173": [
+  "plug.n.01",
+  "tube.n.01",
+  "vent.n.01",
+  "pipe.n.01",
+  "arrow.n.01",
+  "fireplug.n.01",
+  "exhaust.n.01",
+  "cylinder.n.01",
+  "duct.n.01"
+ ],
+ "174": [
+  "valve.n.01",
+  "pump.n.01",
+  "conductor.n.01"
+ ],
+ "175": [
+  "exhaust_pipe.n.01",
+  "chimney.n.01"
+ ],
+ "176": [
+  "cable.n.01",
+  "television.n.01",
+  "tape.n.01",
+  "dial.n.01",
+  "radio_beam.n.01",
+  "antenna.n.01",
+  "radio.n.01",
+  "slot.n.01"
+ ],
+ "177": [
+  "siding.n.01",
+  "hinge.n.01",
+  "shock_absorber.n.01",
+  "ripple.n.01",
+  "bumper.n.01",
+  "buoy.n.01",
+  "slide_fastener.n.01",
+  "bulge.n.01",
+  "flop.n.04",
+  "magnet.n.01",
+  "stall.n.01",
+  "trough.n.01",
+  "thread.n.01",
+  "rope.n.01",
+  "spike.n.01",
+  "flap.n.01"
+ ],
+ "178": [
+  "picture.n.01",
+  "photograph.n.01",
+  "screen.n.01",
+  "picture_frame.n.01",
+  "camera.n.01",
+  "photographer.n.01",
+  "display.n.01",
+  "image.n.01",
+  "cast.n.03",
+  "fictional_character.n.01",
+  "movie.n.01",
+  "portrayal.n.01",
+  "graphic.n.01"
+ ],
+ "179": [
+  "pillow.n.01",
+  "sofa.n.01",
+  "armchair.n.01",
+  "armrest.n.01",
+  "recliner.n.01"
+ ],
+ "180": [
+  "bed.n.01",
+  "bedroom.n.01",
+  "headboard.n.01",
+  "footboard.n.01",
+  "crib.n.01",
+  "bedspread.n.01"
+ ],
+ "181": [
+  "mattress.n.01",
+  "blanket.n.01",
+  "quilt.n.01",
+  "tarpaulin.n.01"
+ ],
+ "182": [
+  "shed.n.01",
+  "awning.n.01"
+ ],
+ "183": [
+  "teddy.n.01",
+  "doll.n.01",
+  "fur.n.01"
+ ],
+ "184": [
+  "mask.n.01",
+  "trick.n.01"
+ ],
+ "185": [
+  "color.n.01",
+  "rainbow.n.01",
+  "palette.n.01",
+  "accent.n.01"
+ ],
+ "186": [
+  "gray.n.01"
+ ],
+ "187": [
+  "landscape.n.01",
+  "background.n.02",
+  "detail.n.01",
+  "foreground.n.01",
+  "narration.n.02"
+ ],
+ "188": [
+  "frame.n.01",
+  "design.n.01",
+  "shape.n.01",
+  "structure.n.01",
+  "fixture.n.01"
+ ],
+ "189": [
+  "heater.n.01",
+  "reflector.n.01",
+  "baseboard.n.01",
+  "radiator.n.01",
+  "dryer.n.01",
+  "mast.n.01",
+  "coil.n.02",
+  "air_conditioner.n.01"
+ ],
+ "190": [
+  "area.n.01",
+  "land.n.01",
+  "city.n.01",
+  "new_jersey.n.01",
+  "town.n.01",
+  "resort_area.n.01"
+ ],
+ "191": [
+  "metro.n.01",
+  "station.n.01",
+  "railway_station.n.01",
+  "railway.n.01"
+ ],
+ "192": [
+  "track.n.09",
+  "railroad_track.n.01"
+ ],
+ "193": [
+  "train.n.01",
+  "passenger_train.n.01"
+ ],
+ "194": [
+  "paint.n.01",
+  "painting.n.01",
+  "art.n.01",
+  "canvas.n.01",
+  "drawing.n.01"
+ ],
+ "195": [
+  "pencil.n.01",
+  "brush.n.01"
+ ],
+ "196": [
+  "paper_towel.n.01",
+  "towel_rack.n.01",
+  "wrap.n.01",
+  "towel.n.01"
+ ],
+ "197": [
+  "paper.n.01",
+  "book.n.01",
+  "newspaper.n.01",
+  "magazine.n.01"
+ ],
+ "198": [
+  "pen.n.01",
+  "chalk.n.01"
+ ],
+ "199": [
+  "envelope.n.01",
+  "binder.n.01",
+  "accountant.n.01"
+ ],
+ "200": [
+  "stapler.n.01",
+  "scissors.n.01"
+ ],
+ "201": [
+  "bottle.n.01",
+  "water_bottle.n.01",
+  "wine_bottle.n.01",
+  "beer_bottle.n.01",
+  "jug.n.01"
+ ],
+ "202": [
+  "wine.n.01",
+  "drink.n.01",
+  "beverage.n.01",
+  "beer.n.01",
+  "coca_cola.n.01"
+ ],
+ "203": [
+  "hoop.n.01"
+ ],
+ "204": [
+  "ribbon.n.01",
+  "rectangle.n.01",
+  "tine.n.01",
+  "string.n.01"
+ ],
+ "205": [
+  "hole.n.01"
+ ],
+ "206": [
+  "shield.n.01"
+ ],
+ "207": [
+  "balloon.n.01",
+  "bubble.n.01"
+ ],
+ "208": [
+  "square.n.01"
+ ],
+ "209": [
+  "circle.n.01",
+  "radius.n.01",
+  "sphere.n.01",
+  "circular.n.01"
+ ],
+ "210": [
+  "cone.n.01",
+  "triangle.n.01"
+ ],
+ "211": [
+  "crescent_roll.n.01",
+  "arch.n.01",
+  "diamond.n.01"
+ ],
+ "212": [
+  "kite.n.03",
+  "fender.n.01"
+ ],
+ "213": [
+  "polka_dot.n.01",
+  "spot.n.05",
+  "speck.n.01"
+ ],
+ "214": [
+  "footprint.n.01"
+ ],
+ "215": [
+  "periphery.n.01",
+  "boundary_line.n.01"
+ ],
+ "216": [
+  "streak.n.01",
+  "crack.n.01",
+  "strip.n.01"
+ ],
+ "217": [
+  "enclosure.n.01",
+  "cage.n.01",
+  "compartment.n.01",
+  "room.n.01",
+  "booth.n.01"
+ ],
+ "218": [
+  "house.n.01",
+  "cabin.n.01"
+ ],
+ "219": [
+  "box.n.01",
+  "mailbox.n.01"
+ ],
+ "220": [
+  "fork.n.01",
+  "spoon.n.01",
+  "tongs.n.01",
+  "spatula.n.01"
+ ],
+ "221": [
+  "batter.n.01",
+  "blender.n.01"
+ ],
+ "222": [
+  "crust.n.02",
+  "slice.n.01"
+ ],
+ "223": [
+  "plate.n.04",
+  "paper_plate.n.01",
+  "utensil.n.01"
+ ],
+ "224": [
+  "dispenser.n.01"
+ ],
+ "225": [
+  "kitchen.n.01",
+  "grillroom.n.01"
+ ],
+ "226": [
+  "container.n.01",
+  "carrier.n.01",
+  "cargo.n.01",
+  "barrel.n.01"
+ ],
+ "227": [
+  "bowl.n.01",
+  "match.n.01"
+ ],
+ "228": [
+  "field.n.01",
+  "ball_field.n.01"
+ ],
+ "229": [
+  "pan.n.01",
+  "oven.n.01",
+  "foil.n.01",
+  "frying_pan.n.01"
+ ],
+ "230": [
+  "coffee_table.n.01",
+  "table.n.02",
+  "tray.n.01",
+  "console_table.n.01",
+  "tabletop.n.01",
+  "furniture.n.01"
+ ],
+ "231": [
+  "food.n.01",
+  "vitamin_e.n.01",
+  "seed.n.01",
+  "fruit.n.01",
+  "coffee.n.01",
+  "tea.n.01"
+ ],
+ "232": [
+  "coaster.n.01",
+  "can.n.01",
+  "coffee_mug.n.01",
+  "coffee_cup.n.01",
+  "coffee_maker.n.01"
+ ],
+ "233": [
+  "ashcan.n.01",
+  "ashtray.n.01"
+ ],
+ "234": [
+  "chopstick.n.01",
+  "ingot.n.01",
+  "slat.n.01",
+  "prong.n.01",
+  "tripod.n.01"
+ ],
+ "235": [
+  "note.n.01",
+  "writing.n.01",
+  "letter.n.01",
+  "word.n.01",
+  "text.n.01",
+  "spoke.n.01",
+  "page.n.01"
+ ],
+ "236": [
+  "label.n.01",
+  "sleeve.n.01",
+  "booklet.n.01",
+  "gummed_label.n.01",
+  "billboard.n.01",
+  "liner.n.01",
+  "hip.n.01",
+  "groove.n.01",
+  "phonograph_record.n.01",
+  "jam.n.01"
+ ],
+ "237": [
+  "grain.n.01",
+  "rice.n.01",
+  "corn.n.01",
+  "oil.n.01"
+ ],
+ "238": [
+  "water.n.01",
+  "droplet.n.01",
+  "sink.n.01",
+  "water_faucet.n.01",
+  "drain.n.01",
+  "cooler.n.01"
+ ],
+ "239": [
+  "cadmium.n.01",
+  "sodium_carbonate.n.01",
+  "phosphorus.n.01",
+  "acid.n.02",
+  "nitrogen.n.01",
+  "oxygen.n.01",
+  "helium.n.01"
+ ],
+ "240": [
+  "cup.n.01",
+  "star.n.01",
+  "fan.n.01",
+  "player.n.01",
+  "game.n.01",
+  "tennis_player.n.01",
+  "team.n.01",
+  "coach.n.01",
+  "soccer_player.n.01",
+  "athlete.n.01",
+  "referee.n.01",
+  "umpire.n.01"
+ ],
+ "241": [
+  "dish.n.01",
+  "bread.n.01",
+  "cake.n.03",
+  "cupcake.n.01",
+  "menu.n.01",
+  "dough.n.01",
+  "fold.n.01",
+  "muffin.n.01",
+  "pie.n.01",
+  "pastry.n.01",
+  "dessert.n.01",
+  "condiment.n.01",
+  "birthday_cake.n.01",
+  "gravy.n.01",
+  "toast.n.01",
+  "garnish.n.01",
+  "parsley.n.01",
+  "chef.n.01"
+ ],
+ "242": [
+  "float.n.01",
+  "plain.n.01",
+  "beacon.n.03",
+  "dash.n.01",
+  "feeder.n.01",
+  "crest.n.01",
+  "elf.n.01"
+ ],
+ "243": [
+  "air.n.01",
+  "outside.n.01",
+  "outdoors.n.01",
+  "center.n.01",
+  "home.n.01",
+  "shelter.n.01",
+  "inside.n.01"
+ ],
+ "244": [
+  "decoration.n.02",
+  "mural.n.01",
+  "artwork.n.01",
+  "graffito.n.01",
+  "poster.n.01"
+ ],
+ "245": [
+  "marker.n.02",
+  "memorial.n.03",
+  "statue.n.01",
+  "mannequin.n.01",
+  "figurine.n.01",
+  "sculpture.n.01",
+  "inscription.n.01",
+  "carving.n.01",
+  "figure.n.01"
+ ],
+ "246": [
+  "wheel.n.01",
+  "hubcap.n.01",
+  "clasp.n.02",
+  "tire.n.01",
+  "kickstand.n.01",
+  "curve.n.01",
+  "switch.n.01",
+  "lever.n.01",
+  "rod.n.01",
+  "landing_gear.n.01",
+  "gear.n.01",
+  "pedal_point.n.01",
+  "brake.n.01",
+  "pew.n.01",
+  "gauge.n.01",
+  "taillight.n.01",
+  "handlebar.n.01"
+ ],
+ "247": [
+  "charger.n.01",
+  "holder.n.01",
+  "cartridge_holder.n.01",
+  "license_plate.n.01",
+  "card.n.01",
+  "coin.n.01",
+  "license.n.01",
+  "stud.n.02",
+  "jockey.n.01"
+ ],
+ "248": [
+  "zebra.n.01"
+ ],
+ "249": [
+  "butterfly.n.01"
+ ],
+ "250": [
+  "pigeon.n.01",
+  "parrot.n.01",
+  "gull.n.02"
+ ],
+ "251": [
+  "slipper.n.01"
+ ],
+ "252": [
+  "penguin.n.01",
+  "ostrich.n.01",
+  "flamingo.n.01"
+ ],
+ "253": [
+  "gazelle.n.01",
+  "deer.n.01",
+  "antelope.n.01",
+  "antler.n.01"
+ ],
+ "254": [
+  "giraffe.n.01"
+ ],
+ "255": [
+  "policeman.n.01",
+  "military_officer.n.01",
+  "prison_guard.n.01",
+  "soldier.n.01",
+  "police.n.01"
+ ],
+ "256": [
+  "gun.n.01",
+  "gun_muzzle.n.01",
+  "silencer.n.02"
+ ],
+ "257": [
+  "scene.n.01",
+  "aftermath.n.01",
+  "case_shot.n.01"
+ ],
+ "258": [
+  "pot.n.01"
+ ],
+ "259": [
+  "dressing.n.07"
+ ],
+ "260": [
+  "kettle.n.01",
+  "jar.n.01",
+  "shaker.n.01"
+ ],
+ "261": [
+  "salt.n.01",
+  "pepper.n.01",
+  "pepper_shaker.n.01",
+  "sweet_pepper.n.01",
+  "saltshaker.n.01",
+  "spice.n.02",
+  "cayenne.n.01",
+  "basil.n.01",
+  "garlic.n.01"
+ ],
+ "262": [
+  "topographic_point.n.01",
+  "position.n.03",
+  "overall.n.01",
+  "point.n.09",
+  "goal.n.01",
+  "gap.n.01"
+ ],
+ "263": [
+  "cord.n.01",
+  "heart.n.01",
+  "column.n.01",
+  "spinal_column.n.01",
+  "vein.n.01"
+ ],
+ "264": [
+  "cap.n.01",
+  "baseball_cap.n.01",
+  "beanie.n.01",
+  "hood.n.08",
+  "hat.n.01",
+  "cowboy_hat.n.01"
+ ],
+ "265": [
+  "umbrella.n.01",
+  "parasol.n.01"
+ ],
+ "266": [
+  "sport_utility.n.01",
+  "ball.n.08",
+  "soccer_ball.n.01",
+  "tennis_ball.n.01",
+  "basketball.n.01",
+  "football.n.01",
+  "baseball.n.01"
+ ],
+ "267": [
+  "pitcher.n.01",
+  "catcher.n.01",
+  "ballplayer.n.01"
+ ],
+ "268": [
+  "mound.n.01",
+  "dugout.n.01"
+ ],
+ "269": [
+  "baseball_glove.n.01",
+  "glove.n.02",
+  "mitten.n.01"
+ ],
+ "270": [
+  "baseball_diamond.n.01",
+  "outfield.n.01",
+  "soccer.n.01"
+ ],
+ "271": [
+  "guard.n.01",
+  "shin_guard.n.01"
+ ],
+ "272": [
+  "plaything.n.01",
+  "whirl.n.02",
+  "frisbee.n.01"
+ ],
+ "273": [
+  "baseball_bat.n.01",
+  "bat.n.05"
+ ],
+ "274": [
+  "lace.n.01",
+  "leather.n.01",
+  "fabric.n.01",
+  "wool.n.01"
+ ],
+ "275": [
+  "abrasion.n.01",
+  "sand.n.01",
+  "cement.n.01",
+  "wood.n.01",
+  "log.n.01",
+  "pine.n.01",
+  "clay.n.01",
+  "gauze.n.02",
+  "bleacher.n.01",
+  "powder.n.01",
+  "liquid.n.01",
+  "cardboard.n.01",
+  "sheet.n.01",
+  "plastic.n.01",
+  "cobble.n.01"
+ ],
+ "276": [
+  "sewing.n.01",
+  "seam.n.01",
+  "print.n.01",
+  "material.n.01",
+  "nerve_pathway.n.01",
+  "dandy.n.01",
+  "rag.n.01",
+  "wrinkle.n.01"
+ ],
+ "277": [
+  "iron.n.01",
+  "steel.n.01",
+  "tin.n.01",
+  "metallic_element.n.01",
+  "tungsten.n.01"
+ ],
+ "278": [
+  "base.n.01",
+  "tank.n.01",
+  "wing.n.01",
+  "shell.n.01",
+  "gas_tank.n.01"
+ ],
+ "279": [
+  "tissue.n.02"
+ ],
+ "280": [
+  "breast.n.01"
+ ],
+ "281": [
+  "tooth.n.01"
+ ],
+ "282": [
+  "skull.n.01"
+ ],
+ "283": [
+  "skin.n.01"
+ ],
+ "284": [
+  "bone.n.01"
+ ],
+ "285": [
+  "wire.n.01",
+  "mesh.n.01",
+  "chain.n.01",
+  "leash.n.01",
+  "lanyard.n.01"
+ ],
+ "286": [
+  "shutter.n.01",
+  "tail.n.01",
+  "axial_rotation.n.01",
+  "cockpit.n.01",
+  "stabilizer.n.01",
+  "vertical_stabilizer.n.01",
+  "fuselage.n.01"
+ ],
+ "287": [
+  "lampshade.n.01",
+  "lamp.n.01",
+  "lantern.n.01",
+  "floor_lamp.n.01"
+ ],
+ "288": [
+  "vase.n.01",
+  "pottery.n.01",
+  "urn.n.01"
+ ],
+ "289": [
+  "silverware.n.01"
+ ],
+ "290": [
+  "candlestick.n.01",
+  "candle.n.01",
+  "chandelier.n.01"
+ ],
+ "291": [
+  "bouquet.n.01",
+  "wreath.n.01",
+  "plaque.n.01"
+ ],
+ "292": [
+  "hanger.n.01",
+  "overhang.n.01",
+  "tassel.n.01"
+ ],
+ "293": [
+  "neck.n.01",
+  "shoulder.n.01"
+ ],
+ "294": [
+  "tip.n.01",
+  "nose.n.01"
+ ],
+ "295": [
+  "cheek.n.01"
+ ],
+ "296": [
+  "butt.n.01"
+ ],
+ "297": [
+  "palm.n.01",
+  "beach.n.01",
+  "pebble.n.01",
+  "shingle.n.01"
+ ],
+ "298": [
+  "band.n.04",
+  "rock.n.01",
+  "piano.n.01",
+  "guitar.n.01",
+  "drum.n.01"
+ ],
+ "299": [
+  "banner.n.01",
+  "flag.n.01",
+  "badge.n.01",
+  "emblem.n.01",
+  "symbol.n.01"
+ ],
+ "300": [
+  "basket.n.01",
+  "wastepaper_basket.n.01",
+  "carton.n.01",
+  "bucket.n.01",
+  "dumpster.n.01",
+  "crate.n.01",
+  "sack.n.01"
+ ],
+ "301": [
+  "boat.n.01",
+  "oar.n.01",
+  "paddle.n.01",
+  "vessel.n.01",
+  "ship.n.01",
+  "barge.n.01",
+  "cruiser.n.01"
+ ],
+ "302": [
+  "range.n.04",
+  "scope.n.01",
+  "outline.n.01",
+  "silhouette.n.01"
+ ],
+ "303": [
+  "ocean.n.01",
+  "wave.n.01",
+  "shore.n.01",
+  "horizon.n.01",
+  "shoreline.n.01",
+  "sea.n.01",
+  "island.n.01",
+  "basin.n.01",
+  "cape.n.01",
+  "desert.n.01"
+ ],
+ "304": [
+  "raft.n.01",
+  "sailboat.n.01",
+  "sail.n.01",
+  "yacht.n.01",
+  "surfboard.n.01"
+ ],
+ "305": [
+  "rack.n.01",
+  "refrigerator.n.01",
+  "deep-freeze.n.01",
+  "electric_refrigerator.n.01"
+ ],
+ "306": [
+  "stove.n.01",
+  "microwave.n.02",
+  "burner.n.01",
+  "toaster.n.01",
+  "appliance.n.01",
+  "steam.n.01"
+ ],
+ "307": [
+  "bulb.n.01",
+  "battery.n.01"
+ ],
+ "308": [
+  "entertainment_center.n.01",
+  "dome.n.01",
+  "jersey.n.03",
+  "garden.n.01",
+  "pool.n.06",
+  "park.n.01",
+  "park_bench.n.01",
+  "stadium.n.01",
+  "pavilion.n.01"
+ ],
+ "309": [
+  "faucet.n.01",
+  "teapot.n.01",
+  "spout.n.01",
+  "splash.n.01",
+  "scattering.n.03"
+ ],
+ "310": [
+  "stain.n.01",
+  "dust.n.01",
+  "molding.n.01",
+  "bacillus.n.01"
+ ],
+ "311": [
+  "toiletry.n.01",
+  "toilet.n.01",
+  "public_toilet.n.01",
+  "toilet_tissue.n.01",
+  "toilet_seat.n.01",
+  "toilet_bowl.n.01",
+  "plumbing.n.01",
+  "urinal.n.01"
+ ],
+ "312": [
+  "shower.n.01",
+  "bathroom.n.01",
+  "shower_curtain.n.01",
+  "bathtub.n.01"
+ ],
+ "313": [
+  "toothbrush.n.01",
+  "toothpaste.n.01",
+  "bristle.n.01"
+ ],
+ "314": [
+  "bagel.n.01",
+  "doughnut.n.02"
+ ],
+ "315": [
+  "sausage.n.01",
+  "burger.n.01",
+  "hotdog.n.01",
+  "hamburger.n.01"
+ ],
+ "316": [
+  "sandwich.n.01",
+  "bun.n.01"
+ ],
+ "317": [
+  "steak.n.01"
+ ],
+ "318": [
+  "pizza.n.01",
+  "topping.n.01"
+ ],
+ "319": [
+  "ham.n.01",
+  "bacon.n.01",
+  "pepperoni.n.01"
+ ],
+ "320": [
+  "macaroni.n.01",
+  "noodle.n.01",
+  "pasta.n.01"
+ ],
+ "321": [
+  "shrub.n.01",
+  "shrubbery.n.01",
+  "vine.n.01",
+  "weed.n.01",
+  "pasture.n.01"
+ ],
+ "322": [
+  "power_cord.n.01",
+  "water_line.n.02",
+  "power_line.n.01",
+  "timber_line.n.01",
+  "supply.n.01",
+  "cycle.n.01"
+ ],
+ "323": [
+  "cab.n.01",
+  "sedan.n.01",
+  "minivan.n.01",
+  "jeep.n.01",
+  "wagon.n.01"
+ ],
+ "324": [
+  "shop.n.01",
+  "garage.n.01",
+  "shopfront.n.01",
+  "market.n.01"
+ ],
+ "325": [
+  "dirt.n.02",
+  "gravel.n.01",
+  "gutter.n.01",
+  "rotter.n.01",
+  "litter.n.01",
+  "mud.n.01",
+  "debris.n.01",
+  "pile.n.01",
+  "garbage.n.01",
+  "rubbish.n.01"
+ ],
+ "326": [
+  "river.n.01",
+  "lake.n.01",
+  "pond.n.01"
+ ],
+ "327": [
+  "chicken.n.01",
+  "meat.n.01",
+  "lamb.n.01",
+  "beef.n.01",
+  "turkey.n.01"
+ ],
+ "328": [
+  "potato.n.01"
+ ],
+ "329": [
+  "sunflower.n.01"
+ ],
+ "330": [
+  "banana.n.01"
+ ],
+ "331": [
+  "vegetable.n.01"
+ ],
+ "332": [
+  "bean.n.01"
+ ],
+ "333": [
+  "pea.n.01"
+ ],
+ "334": [
+  "mushroom.n.01"
+ ],
+ "335": [
+  "nut.n.01"
+ ],
+ "336": [
+  "tortilla.n.01"
+ ],
+ "337": [
+  "plantain.n.01"
+ ],
+ "338": [
+  "cauliflower.n.01",
+  "broccoli.n.01",
+  "cabbage.n.01"
+ ],
+ "339": [
+  "spinach.n.01"
+ ],
+ "340": [
+  "zucchini.n.01",
+  "cucumber.n.01"
+ ],
+ "341": [
+  "carrot.n.01",
+  "radish.n.01"
+ ],
+ "342": [
+  "onion.n.01"
+ ],
+ "343": [
+  "squash.n.01"
+ ],
+ "344": [
+  "asparagus.n.01"
+ ],
+ "345": [
+  "fire.n.03",
+  "fire_escape.n.01",
+  "signal_fire.n.01",
+  "fire_extinguisher.n.01"
+ ],
+ "346": [
+  "knock.n.03",
+  "doorknob.n.01",
+  "home_plate.n.01",
+  "knob.n.02"
+ ],
+ "347": [
+  "lock.n.01",
+  "key.n.01",
+  "latch.n.01"
+ ],
+ "348": [
+  "bell.n.01",
+  "horn.n.01"
+ ],
+ "349": [
+  "hook.n.01",
+  "wedge.n.01"
+ ],
+ "350": [
+  "partition.n.01",
+  "bracket.n.01",
+  "brace.n.06",
+  "stump.n.01",
+  "trim.n.01",
+  "piece.n.01"
+ ],
+ "351": [
+  "salad.n.01"
+ ],
+ "352": [
+  "sauce.n.01",
+  "tomato_sauce.n.01",
+  "catsup.n.01",
+  "favorer.n.01"
+ ],
+ "353": [
+  "tomato.n.01"
+ ],
+ "354": [
+  "soup.n.01"
+ ],
+ "355": [
+  "tent.n.01",
+  "barn.n.01",
+  "hut.n.01"
+ ],
+ "356": [
+  "strawberry.n.01",
+  "ice.n.01",
+  "cheese.n.01",
+  "milk.n.01",
+  "cream.n.01",
+  "ice_cream.n.01"
+ ],
+ "357": [
+  "blueberry.n.01",
+  "pear.n.01",
+  "cactus.n.01",
+  "pineapple.n.01",
+  "mango.n.01",
+  "pickle.n.01",
+  "melon.n.01"
+ ],
+ "358": [
+  "meal.n.01",
+  "breakfast.n.01",
+  "dinner.n.01",
+  "lunch.n.01"
+ ],
+ "359": [
+  "butter.n.01",
+  "frosting.n.01",
+  "sugar.n.01",
+  "flour.n.01",
+  "syrup.n.01",
+  "glaze.n.01",
+  "egg.n.01",
+  "egg_yolk.n.01"
+ ],
+ "360": [
+  "juice.n.01",
+  "lemon.n.01",
+  "peel.n.01",
+  "chinese_gooseberry.n.01"
+ ],
+ "361": [
+  "battalion.n.02",
+  "parachute.n.01"
+ ],
+ "362": [
+  "ear.n.01"
+ ],
+ "363": [
+  "eye.n.01",
+  "brow.n.01",
+  "eyelash.n.01",
+  "eyebrow.n.01"
+ ],
+ "364": [
+  "mouth.n.01",
+  "smile.n.01"
+ ],
+ "365": [
+  "lip.n.01",
+  "lipstick.n.01"
+ ],
+ "366": [
+  "tongue.n.01",
+  "bite.n.04"
+ ],
+ "367": [
+  "torso.n.01",
+  "thorax.n.02",
+  "abdomen.n.01"
+ ],
+ "368": [
+  "seaweed.n.01",
+  "mulch.n.01",
+  "sponge.n.01",
+  "moss.n.01",
+  "ivy.n.01"
+ ],
+ "369": [
+  "blooming.n.01",
+  "bud.n.01",
+  "berry.n.01",
+  "herb.n.01",
+  "pat.n.01",
+  "frost.n.03"
+ ],
+ "370": [
+  "soil.n.02",
+  "surface.n.01",
+  "earth.n.01",
+  "space.n.01",
+  "layer.n.01"
+ ],
+ "371": [
+  "slump.n.01",
+  "drop.n.01",
+  "slide.n.01"
+ ],
+ "372": [
+  "bannister.n.02",
+  "stairway.n.01",
+  "ladder.n.01",
+  "step.n.04"
+ ],
+ "373": [
+  "lift.n.01"
+ ],
+ "374": [
+  "pancake.n.01",
+  "cracker.n.01",
+  "candy.n.01",
+  "cookie.n.01",
+  "biscuit.n.01"
+ ],
+ "375": [
+  "apartment.n.01",
+  "skyscraper.n.01"
+ ],
+ "376": [
+  "palace.n.01",
+  "hotel.n.01",
+  "restaurant.n.01"
+ ],
+ "377": [
+  "cyclist.n.01",
+  "motorcyclist.n.01",
+  "rider.n.01"
+ ],
+ "378": [
+  "snowboarder.n.01",
+  "skateboarder.n.01",
+  "snowsuit.n.01",
+  "skater.n.01",
+  "skier.n.01"
+ ],
+ "379": [
+  "cane.n.01",
+  "hay.n.01",
+  "hayfield.n.01",
+  "bamboo.n.01",
+  "straw.n.01",
+  "chaff.n.01"
+ ],
+ "380": [
+  "dock.n.01",
+  "pier.n.01",
+  "seaport.n.01",
+  "port.n.01"
+ ],
+ "381": [
+  "terminal.n.01",
+  "airport.n.01"
+ ],
+ "382": [
+  "bird.n.01",
+  "eagle.n.01",
+  "feather.n.01",
+  "tail_feather.n.01",
+  "owl.n.01"
+ ],
+ "383": [
+  "fish.n.01"
+ ],
+ "384": [
+  "elephant.n.01",
+  "american_bison.n.01",
+  "ivory.n.01",
+  "rhinoceros.n.01"
+ ],
+ "385": [
+  "animal.n.01",
+  "lion.n.01",
+  "cub.n.01"
+ ],
+ "386": [
+  "duck.n.01",
+  "goose.n.01",
+  "swan.n.01"
+ ],
+ "387": [
+  "bear.n.01",
+  "giant_panda.n.01"
+ ],
+ "388": [
+  "dinosaur.n.01",
+  "dragon.n.01"
+ ],
+ "389": [
+  "soap.n.01",
+  "soap_dish.n.01",
+  "soap_dispenser.n.01",
+  "foam.n.01",
+  "spray.n.01"
+ ],
+ "390": [
+  "airplane.n.01",
+  "engine.n.01",
+  "propeller.n.01",
+  "jet.n.01",
+  "aircraft.n.01",
+  "pilot.n.01",
+  "jet_engine.n.01",
+  "turbine.n.01",
+  "locomotive.n.01",
+  "fire_engine.n.01",
+  "helicopter.n.01"
+ ],
+ "391": [
+  "court.n.01",
+  "tennis_court.n.01",
+  "tennis.n.01"
+ ],
+ "392": [
+  "tennis_racket.n.01",
+  "racket.n.04"
+ ],
+ "393": [
+  "crowd.n.01",
+  "audience.n.01",
+  "spectator.n.01",
+  "sociable.n.01",
+  "barroom.n.01"
+ ],
+ "394": [
+  "hoof.n.01",
+  "rein.n.01",
+  "harness.n.01",
+  "saddle.n.01",
+  "bridle.n.01",
+  "stirrup.n.01"
+ ],
+ "395": [
+  "boodle.n.01",
+  "smuggler.n.01"
+ ],
+ "396": [
+  "hillside.n.01",
+  "boulder.n.01",
+  "mountainside.n.01",
+  "mountain.n.01",
+  "hill.n.01"
+ ],
+ "397": [
+  "trail.n.01",
+  "valley.n.01"
+ ],
+ "398": [
+  "ridge.n.01",
+  "terrain.n.01",
+  "slope.n.01",
+  "cliff.n.01",
+  "ledge.n.01"
+ ],
+ "399": [
+  "waterfall.n.01",
+  "stream.n.01",
+  "fountain.n.01",
+  "breakwater.n.01"
+ ],
+ "400": [
+  "beak.n.01",
+  "snout.n.01"
+ ],
+ "401": [
+  "canoe.n.01",
+  "kayak.n.01",
+  "surfer.n.01",
+  "surfing.n.01",
+  "surf.n.01",
+  "parasail.n.01",
+  "water_scooter.n.01"
+ ]
+}

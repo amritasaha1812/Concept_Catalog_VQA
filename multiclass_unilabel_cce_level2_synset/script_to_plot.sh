@@ -1,0 +1,1 @@
+awk 'BEGIN{FS=" "}{ print $(15) }' out/o$1.txt | tr '\n' ',' | tr -s ',' | sed 's/,[ \t]*$/,/g' | sed 's/^[ \t]*,//g' | awk '{ print "import matplotlib.pyplot as plt\nplt.plot(["$0"])\nplt.ylabel(\"some numbers\")\nplt.show()"}' > plot.py

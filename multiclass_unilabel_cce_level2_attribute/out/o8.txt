@@ -1,0 +1,627 @@
+# bsub -q x86_24h -g /amritas8/_/default -M 153600 -hl -n 1 -R \
+    rusage[mem=162816,ngpus_excl_p=1] affinity[core(1)] -Is python \
+    run_train.py --load_checkpoint_path 8 --dump_checkpoint_path 8 \
+    --dump_data_path 1 --cluster_classify 0 --worker_number 8
+Job <920130> is submitted to queue <x86_24h>.
+| options
+run_dir: /dccstor/cssblr/amrita/Concept_Catalog_VQA/multiclass_unilabel_cce_level2_attribute
+image_dir: /dccstor/cssblr/amrita/VisualGenome/data/VG_100K
+dataset: visualgenome
+load_checkpoint_path: 8
+dump_checkpoint_path: 8
+dump_data_path: 1
+gpu_ids: [0]
+image_region_resnet_features: region_resnet_features_filtered_datasize100.h5
+image_region_dictionary: region_keys_filtered_datasize100.pkl
+glove_embedding_file: attribute_glove_emb_filtered_datasize100.pkl
+image_concepts_glove_emb_file: image_concepts_glove_embedding_filtered_datasize100.pkl
+vocab_file: manual_gvqa_glove_wordnet_concepts_final.json
+cluster_file: manual_gvqa_glove_wordnet_concept_clusters_final.json
+seed: 1
+batch_size: 200
+learning_rate: 0.005
+input_channels: 3
+image_feature_size: 512
+hidden_size: 512
+common_embedding_size: 512
+glove_embedding_size: 100
+fc1_size: 1000
+fc2_size: 1000
+num_att_layers: 2
+worker_number: 8
+preprocessed_data_dir: /dccstor/cssblr/amrita/VisualGenome/data/preprocessed
+preprocessed_pos_data: attribute_regions_filtered_datasize100.pkl
+preprocessed_neg_data: attribute_negative_regions_filtered_datasize100.pkl
+max_iters: 100000
+max_epochs: 10
+display_every: 1
+checkpoint_every: 2000
+weighted_random_sampler: 1
+shuffle_data: 1
+sort_by: none
+cluster_classify: 0
+vocab size  255
+cluster size  92
+Preprocessed positive and negative data in  34.33272838592529 secs
+length  92
+<class 'datasets.visual_genome_attribute_object.VisualGenomeAttributeCatalog'>
+Starting cluster ( 70 ):   ['hitting', 'throwing', 'spraying', 'sprinkled', 'splashing', 'waving', 'carrying', 'enjoying', 'performing']
+<class 'datasets.visual_genome_attribute_object.VisualGenomeAttributeCatalog'>
+number of classes  2
+initialized _Net model
+loading checkpoint from %s checkpoints/8/70
+Model initialized... Not loaded
+transferred model to gpu
+save dir  /dccstor/cssblr/amrita/Concept_Catalog_VQA/multiclass_unilabel_cce_level2_attribute/checkpoints/8/70
+Starting ...
+Starting Training ...
+Epoch  0 Batch No  1  Avg Loss (till now)  0.6918886303901672  Avg Score (till now)  0.775  ( Time taken  10.680006504058838 secs per batch )
+Epoch  0 Batch No  2  Avg Loss (till now)  3.7817517817020416  Avg Score (till now)  0.835  ( Time taken  6.483185529708862 secs per batch )
+Epoch  0 Batch No  3  Avg Loss (till now)  3.965251386165619  Avg Score (till now)  0.835  ( Time taken  5.085284074147542 secs per batch )
+Epoch  0 Batch No  4  Avg Loss (till now)  3.1483970433473587  Avg Score (till now)  0.6775  ( Time taken  4.38644540309906 secs per batch )
+Epoch  0 Batch No  5  Avg Loss (till now)  2.6537554264068604  Avg Score (till now)  0.7030000000000001  ( Time taken  3.9650368690490723 secs per batch )
+Epoch  0 Batch No  6  Avg Loss (till now)  2.302777200937271  Avg Score (till now)  0.7275  ( Time taken  3.686077833175659 secs per batch )
+Epoch  0 Batch No  7  Avg Loss (till now)  2.159764298370906  Avg Score (till now)  0.7528571428571429  ( Time taken  3.48707846232823 secs per batch )
+Epoch  0 Batch No  8  Avg Loss (till now)  2.0907528176903725  Avg Score (till now)  0.763125  ( Time taken  3.3361135721206665 secs per batch )
+Epoch  0 Batch No  9  Avg Loss (till now)  1.9291542636023626  Avg Score (till now)  0.7733333333333334  ( Time taken  3.2190360493130155 secs per batch )
+Epoch  0 Batch No  10  Avg Loss (till now)  1.7901886641979217  Avg Score (till now)  0.7790000000000001  ( Time taken  3.1252826690673827 secs per batch )
+Epoch  0 Batch No  11  Avg Loss (till now)  1.6812056519768455  Avg Score (till now)  0.7786363636363638  ( Time taken  3.156527432528409 secs per batch )
+Epoch   0  Loss  1.6812056519768455  Score  0.7786363636363638
+Epoch  1 Batch No  1  Avg Loss (till now)  0.6272437572479248  Avg Score (till now)  0.845  ( Time taken  2.2854831218719482 secs per batch )
+Epoch  1 Batch No  2  Avg Loss (till now)  0.6257275640964508  Avg Score (till now)  0.845  ( Time taken  2.2842416763305664 secs per batch )
+Epoch  1 Batch No  3  Avg Loss (till now)  0.5977374911308289  Avg Score (till now)  0.8300000000000001  ( Time taken  2.2845088640848794 secs per batch )
+Epoch  1 Batch No  4  Avg Loss (till now)  0.5580118075013161  Avg Score (till now)  0.83375  ( Time taken  2.284961223602295 secs per batch )
+Epoch  1 Batch No  5  Avg Loss (till now)  0.5701277315616607  Avg Score (till now)  0.829  ( Time taken  2.2856118202209474 secs per batch )
+Epoch  1 Batch No  6  Avg Loss (till now)  0.5660578260819117  Avg Score (till now)  0.8341666666666666  ( Time taken  2.2867064078648887 secs per batch )
+Epoch  1 Batch No  7  Avg Loss (till now)  0.5374731804643359  Avg Score (till now)  0.8414285714285714  ( Time taken  2.2872723511287143 secs per batch )
+Epoch  1 Batch No  8  Avg Loss (till now)  0.5177176035940647  Avg Score (till now)  0.84625  ( Time taken  2.2869827151298523 secs per batch )
+Epoch  1 Batch No  9  Avg Loss (till now)  0.5101693239476945  Avg Score (till now)  0.8444444444444444  ( Time taken  2.286213901307848 secs per batch )
+Epoch  1 Batch No  10  Avg Loss (till now)  0.4958897650241852  Avg Score (till now)  0.8474999999999999  ( Time taken  2.2869346141815186 secs per batch )
+Epoch  1 Batch No  11  Avg Loss (till now)  0.48232917894016614  Avg Score (till now)  0.8522727272727273  ( Time taken  2.1282905882055108 secs per batch )
+Epoch   1  Loss  0.48232917894016614  Score  0.8522727272727273
+Epoch  2 Batch No  1  Avg Loss (till now)  0.37118077278137207  Avg Score (till now)  0.86  ( Time taken  2.296009063720703 secs per batch )
+Epoch  2 Batch No  2  Avg Loss (till now)  0.3397262543439865  Avg Score (till now)  0.88  ( Time taken  2.2944509983062744 secs per batch )
+Epoch  2 Batch No  3  Avg Loss (till now)  0.36978213985761005  Avg Score (till now)  0.8649999999999999  ( Time taken  2.294687032699585 secs per batch )
+Epoch  2 Batch No  4  Avg Loss (till now)  0.355360746383667  Avg Score (till now)  0.8724999999999999  ( Time taken  2.292448878288269 secs per batch )
+Epoch  2 Batch No  5  Avg Loss (till now)  0.35576122999191284  Avg Score (till now)  0.8639999999999999  ( Time taken  2.2915868759155273 secs per batch )
+Epoch  2 Batch No  6  Avg Loss (till now)  0.35215870042641956  Avg Score (till now)  0.8574999999999999  ( Time taken  2.2917850414911904 secs per batch )
+Epoch  2 Batch No  7  Avg Loss (till now)  0.34284949728420805  Avg Score (till now)  0.865  ( Time taken  2.2925072738102505 secs per batch )
+Epoch  2 Batch No  8  Avg Loss (till now)  0.3626173473894596  Avg Score (till now)  0.861875  ( Time taken  2.2933416962623596 secs per batch )
+Epoch  2 Batch No  9  Avg Loss (till now)  0.36471917231877643  Avg Score (till now)  0.8583333333333333  ( Time taken  2.2941776116689048 secs per batch )
+Epoch  2 Batch No  10  Avg Loss (till now)  0.3731388419866562  Avg Score (till now)  0.8594999999999999  ( Time taken  2.293692970275879 secs per batch )
+Epoch  2 Batch No  11  Avg Loss (till now)  0.36096968434073706  Avg Score (till now)  0.8654545454545454  ( Time taken  2.1343507116491143 secs per batch )
+Epoch   2  Loss  0.36096968434073706  Score  0.8654545454545454
+Epoch  3 Batch No  1  Avg Loss (till now)  0.2808665633201599  Avg Score (till now)  0.845  ( Time taken  2.2961490154266357 secs per batch )
+Epoch  3 Batch No  2  Avg Loss (till now)  0.28878912329673767  Avg Score (till now)  0.8525  ( Time taken  2.3011471033096313 secs per batch )
+Epoch  3 Batch No  3  Avg Loss (till now)  0.2865269382794698  Avg Score (till now)  0.85  ( Time taken  2.298241217931112 secs per batch )
+Epoch  3 Batch No  4  Avg Loss (till now)  0.30174536257982254  Avg Score (till now)  0.85  ( Time taken  2.2973318696022034 secs per batch )
+Epoch  3 Batch No  5  Avg Loss (till now)  0.30186452269554137  Avg Score (till now)  0.852  ( Time taken  2.297061014175415 secs per batch )
+Epoch  3 Batch No  6  Avg Loss (till now)  0.289408100148042  Avg Score (till now)  0.8566666666666666  ( Time taken  2.2965880235036216 secs per batch )
+Epoch  3 Batch No  7  Avg Loss (till now)  0.28269762652260916  Avg Score (till now)  0.8585714285714285  ( Time taken  2.2962781361171176 secs per batch )
+Epoch  3 Batch No  8  Avg Loss (till now)  0.2835545241832733  Avg Score (till now)  0.8624999999999999  ( Time taken  2.2963323891162872 secs per batch )
+Epoch  3 Batch No  9  Avg Loss (till now)  0.28325961695777047  Avg Score (till now)  0.8688888888888888  ( Time taken  2.2960333029429116 secs per batch )
+Epoch  3 Batch No  10  Avg Loss (till now)  0.2769251063466072  Avg Score (till now)  0.876  ( Time taken  2.295380735397339 secs per batch )
+Epoch  3 Batch No  11  Avg Loss (till now)  0.2656925198706714  Avg Score (till now)  0.8804545454545455  ( Time taken  2.136141473596746 secs per batch )
+Epoch   3  Loss  0.2656925198706714  Score  0.8804545454545455
+Epoch  4 Batch No  1  Avg Loss (till now)  0.30333763360977173  Avg Score (till now)  0.94  ( Time taken  2.311755657196045 secs per batch )
+Epoch  4 Batch No  2  Avg Loss (till now)  0.33577123284339905  Avg Score (till now)  0.9375  ( Time taken  2.3058626651763916 secs per batch )
+Epoch  4 Batch No  3  Avg Loss (till now)  0.3023172616958618  Avg Score (till now)  0.9433333333333334  ( Time taken  2.3015899658203125 secs per batch )
+Epoch  4 Batch No  4  Avg Loss (till now)  0.3318384513258934  Avg Score (till now)  0.935  ( Time taken  2.2988919019699097 secs per batch )
+Epoch  4 Batch No  5  Avg Loss (till now)  0.33319100737571716  Avg Score (till now)  0.9269999999999999  ( Time taken  2.299167108535767 secs per batch )
+Epoch  4 Batch No  6  Avg Loss (till now)  0.30662642667690915  Avg Score (till now)  0.9308333333333333  ( Time taken  2.2983186642328897 secs per batch )
+Epoch  4 Batch No  7  Avg Loss (till now)  0.3049212545156479  Avg Score (till now)  0.9264285714285715  ( Time taken  2.2982471329825267 secs per batch )
+Epoch  4 Batch No  8  Avg Loss (till now)  0.30173313058912754  Avg Score (till now)  0.92625  ( Time taken  2.2983216643333435 secs per batch )
+Epoch  4 Batch No  9  Avg Loss (till now)  0.2876404921213786  Avg Score (till now)  0.9283333333333333  ( Time taken  2.2984564304351807 secs per batch )
+Epoch  4 Batch No  10  Avg Loss (till now)  0.2864473760128021  Avg Score (till now)  0.9265000000000001  ( Time taken  2.298966646194458 secs per batch )
+Epoch  4 Batch No  11  Avg Loss (till now)  0.27043331549926236  Avg Score (till now)  0.9263636363636365  ( Time taken  2.138983119617809 secs per batch )
+Epoch   4  Loss  0.27043331549926236  Score  0.9263636363636365
+Epoch  5 Batch No  1  Avg Loss (till now)  0.24524997174739838  Avg Score (till now)  0.935  ( Time taken  2.312920331954956 secs per batch )
+Epoch  5 Batch No  2  Avg Loss (till now)  0.20373795926570892  Avg Score (till now)  0.935  ( Time taken  2.308181405067444 secs per batch )
+Epoch  5 Batch No  3  Avg Loss (till now)  0.2016513148943583  Avg Score (till now)  0.9333333333333335  ( Time taken  2.3064868450164795 secs per batch )
+Epoch  5 Batch No  4  Avg Loss (till now)  0.19209329783916473  Avg Score (till now)  0.9337500000000001  ( Time taken  2.308926045894623 secs per batch )
+Epoch  5 Batch No  5  Avg Loss (till now)  0.17376428544521333  Avg Score (till now)  0.9390000000000001  ( Time taken  2.309251308441162 secs per batch )
+Epoch  5 Batch No  6  Avg Loss (till now)  0.1837248851855596  Avg Score (till now)  0.935  ( Time taken  2.3080393075942993 secs per batch )
+Epoch  5 Batch No  7  Avg Loss (till now)  0.18932300167424337  Avg Score (till now)  0.9349999999999999  ( Time taken  2.3070781912122453 secs per batch )
+Epoch  5 Batch No  8  Avg Loss (till now)  0.19162209331989288  Avg Score (till now)  0.93625  ( Time taken  2.307357966899872 secs per batch )
+Epoch  5 Batch No  9  Avg Loss (till now)  0.19124651617474026  Avg Score (till now)  0.9344444444444444  ( Time taken  2.3081542121039496 secs per batch )
+Epoch  5 Batch No  10  Avg Loss (till now)  0.1952284663915634  Avg Score (till now)  0.9355  ( Time taken  2.306969428062439 secs per batch )
+Epoch  5 Batch No  11  Avg Loss (till now)  0.19764956696466965  Avg Score (till now)  0.9322727272727274  ( Time taken  2.146538019180298 secs per batch )
+Epoch   5  Loss  0.19764956696466965  Score  0.9322727272727274
+Epoch  6 Batch No  1  Avg Loss (till now)  0.20937497913837433  Avg Score (till now)  0.94  ( Time taken  2.3090713024139404 secs per batch )
+Epoch  6 Batch No  2  Avg Loss (till now)  0.1661345772445202  Avg Score (till now)  0.9475  ( Time taken  2.308340072631836 secs per batch )
+Epoch  6 Batch No  3  Avg Loss (till now)  0.17711006850004196  Avg Score (till now)  0.9483333333333333  ( Time taken  2.308733065923055 secs per batch )
+Epoch  6 Batch No  4  Avg Loss (till now)  0.20976986922323704  Avg Score (till now)  0.9424999999999999  ( Time taken  2.308151662349701 secs per batch )
+Epoch  6 Batch No  5  Avg Loss (till now)  0.19535988122224807  Avg Score (till now)  0.9469999999999998  ( Time taken  2.307184600830078 secs per batch )
+Epoch  6 Batch No  6  Avg Loss (till now)  0.18832857037583986  Avg Score (till now)  0.9483333333333333  ( Time taken  2.3066258430480957 secs per batch )
+Epoch  6 Batch No  7  Avg Loss (till now)  0.19304190469639643  Avg Score (till now)  0.9478571428571428  ( Time taken  2.3066985607147217 secs per batch )
+Epoch  6 Batch No  8  Avg Loss (till now)  0.19772441778331995  Avg Score (till now)  0.94875  ( Time taken  2.306292235851288 secs per batch )
+Epoch  6 Batch No  9  Avg Loss (till now)  0.20673690653509563  Avg Score (till now)  0.9422222222222223  ( Time taken  2.305880387624105 secs per batch )
+Epoch  6 Batch No  10  Avg Loss (till now)  0.20722202733159065  Avg Score (till now)  0.9385  ( Time taken  2.305877757072449 secs per batch )
+Epoch  6 Batch No  11  Avg Loss (till now)  0.2320122400468046  Avg Score (till now)  0.9281818181818181  ( Time taken  2.1455336700786245 secs per batch )
+Epoch   6  Loss  0.2320122400468046  Score  0.9281818181818181
+Epoch  7 Batch No  1  Avg Loss (till now)  0.20021221041679382  Avg Score (till now)  0.925  ( Time taken  2.309535503387451 secs per batch )
+Epoch  7 Batch No  2  Avg Loss (till now)  0.15644454956054688  Avg Score (till now)  0.9375  ( Time taken  2.3035327196121216 secs per batch )
+Epoch  7 Batch No  3  Avg Loss (till now)  0.17845873534679413  Avg Score (till now)  0.9383333333333334  ( Time taken  2.306257963180542 secs per batch )
+Epoch  7 Batch No  4  Avg Loss (till now)  0.17636298015713692  Avg Score (till now)  0.945  ( Time taken  2.3071226477622986 secs per batch )
+Epoch  7 Batch No  5  Avg Loss (till now)  0.17919516563415527  Avg Score (till now)  0.946  ( Time taken  2.3080801010131835 secs per batch )
+Epoch  7 Batch No  6  Avg Loss (till now)  0.18677039196093878  Avg Score (till now)  0.9433333333333332  ( Time taken  2.3071210781733194 secs per batch )
+Epoch  7 Batch No  7  Avg Loss (till now)  0.18569443907056535  Avg Score (till now)  0.9414285714285713  ( Time taken  2.3064205646514893 secs per batch )
+Epoch  7 Batch No  8  Avg Loss (till now)  0.19146822579205036  Avg Score (till now)  0.9381249999999999  ( Time taken  2.3064639270305634 secs per batch )
+Epoch  7 Batch No  9  Avg Loss (till now)  0.19588107532925075  Avg Score (till now)  0.9366666666666666  ( Time taken  2.3068705664740667 secs per batch )
+Epoch  7 Batch No  10  Avg Loss (till now)  0.19877495616674423  Avg Score (till now)  0.932  ( Time taken  2.30651593208313 secs per batch )
+Epoch  7 Batch No  11  Avg Loss (till now)  0.2017004516991702  Avg Score (till now)  0.9336363636363636  ( Time taken  2.14666392586448 secs per batch )
+Epoch   7  Loss  0.2017004516991702  Score  0.9336363636363636
+Epoch  8 Batch No  1  Avg Loss (till now)  0.20073051750659943  Avg Score (till now)  0.935  ( Time taken  2.318866729736328 secs per batch )
+Epoch  8 Batch No  2  Avg Loss (till now)  0.15622245520353317  Avg Score (till now)  0.95  ( Time taken  2.3091758489608765 secs per batch )
+Epoch  8 Batch No  3  Avg Loss (till now)  0.13475226610898972  Avg Score (till now)  0.9516666666666667  ( Time taken  2.3097774982452393 secs per batch )
+Epoch  8 Batch No  4  Avg Loss (till now)  0.12958266586065292  Avg Score (till now)  0.9525  ( Time taken  2.3061909675598145 secs per batch )
+Epoch  8 Batch No  5  Avg Loss (till now)  0.21430880427360535  Avg Score (till now)  0.9390000000000001  ( Time taken  2.307600259780884 secs per batch )
+Epoch  8 Batch No  6  Avg Loss (till now)  0.2146556427081426  Avg Score (till now)  0.9408333333333334  ( Time taken  2.3079153299331665 secs per batch )
+Epoch  8 Batch No  7  Avg Loss (till now)  0.21811348412718093  Avg Score (till now)  0.9435714285714286  ( Time taken  2.306077480316162 secs per batch )
+Epoch  8 Batch No  8  Avg Loss (till now)  0.20456135086715221  Avg Score (till now)  0.9443750000000001  ( Time taken  2.3053145706653595 secs per batch )
+Epoch  8 Batch No  9  Avg Loss (till now)  0.21081092456976572  Avg Score (till now)  0.943888888888889  ( Time taken  2.304769648445977 secs per batch )
+Epoch  8 Batch No  10  Avg Loss (till now)  0.21326310634613038  Avg Score (till now)  0.9425000000000001  ( Time taken  2.3048404693603515 secs per batch )
+Epoch  8 Batch No  11  Avg Loss (till now)  0.20553472096269781  Avg Score (till now)  0.9454545454545454  ( Time taken  2.145296096801758 secs per batch )
+Epoch   8  Loss  0.20553472096269781  Score  0.9454545454545454
+Epoch  9 Batch No  1  Avg Loss (till now)  0.2617150545120239  Avg Score (till now)  0.875  ( Time taken  2.3091952800750732 secs per batch )
+Epoch  9 Batch No  2  Avg Loss (till now)  0.29024653136730194  Avg Score (till now)  0.8574999999999999  ( Time taken  2.3083194494247437 secs per batch )
+Epoch  9 Batch No  3  Avg Loss (till now)  0.2691703985134761  Avg Score (till now)  0.8583333333333333  ( Time taken  2.3082698980967202 secs per batch )
+Epoch  9 Batch No  4  Avg Loss (till now)  0.26134924963116646  Avg Score (till now)  0.8687499999999999  ( Time taken  2.307846963405609 secs per batch )
+Epoch  9 Batch No  5  Avg Loss (till now)  0.25805283784866334  Avg Score (till now)  0.8809999999999999  ( Time taken  2.308854103088379 secs per batch )
+Epoch  9 Batch No  6  Avg Loss (till now)  0.27336499094963074  Avg Score (till now)  0.8858333333333333  ( Time taken  2.306943933169047 secs per batch )
+Epoch  9 Batch No  7  Avg Loss (till now)  0.2524206702198301  Avg Score (till now)  0.8949999999999999  ( Time taken  2.3073383399418423 secs per batch )
+Epoch  9 Batch No  8  Avg Loss (till now)  0.2386341169476509  Avg Score (till now)  0.901875  ( Time taken  2.307911455631256 secs per batch )
+Epoch  9 Batch No  9  Avg Loss (till now)  0.23744482464260525  Avg Score (till now)  0.9061111111111111  ( Time taken  2.30832658873664 secs per batch )
+Epoch  9 Batch No  10  Avg Loss (till now)  0.230014868080616  Avg Score (till now)  0.9109999999999999  ( Time taken  2.3077104091644287 secs per batch )
+Epoch  9 Batch No  11  Avg Loss (till now)  0.22562440958890048  Avg Score (till now)  0.91  ( Time taken  2.1470248482444068 secs per batch )
+Epoch   9  Loss  0.22562440958890048  Score  0.91
+Starting cluster ( 71 ):   ['attached', 'connected', 'recessed']
+<class 'datasets.visual_genome_attribute_object.VisualGenomeAttributeCatalog'>
+number of classes  1
+Number of classes ==  1, hence skipping this cluster
+Starting cluster ( 72 ):   ['gree', 'existing', 'visable', 'shingled']
+<class 'datasets.visual_genome_attribute_object.VisualGenomeAttributeCatalog'>
+number of classes  4
+initialized _Net model
+loading checkpoint from %s checkpoints/8/72
+Model initialized... Not loaded
+transferred model to gpu
+save dir  /dccstor/cssblr/amrita/Concept_Catalog_VQA/multiclass_unilabel_cce_level2_attribute/checkpoints/8/72
+Starting ...
+Starting Training ...
+Epoch  0 Batch No  1  Avg Loss (till now)  1.393318772315979  Avg Score (till now)  0.14  ( Time taken  2.5896413326263428 secs per batch )
+Epoch  0 Batch No  2  Avg Loss (till now)  6.523676216602325  Avg Score (till now)  0.305  ( Time taken  2.4578105211257935 secs per batch )
+Epoch  0 Batch No  3  Avg Loss (till now)  4.809789816538493  Avg Score (till now)  0.2833333333333333  ( Time taken  2.4150843620300293 secs per batch )
+Epoch  0 Batch No  4  Avg Loss (till now)  3.949988842010498  Avg Score (till now)  0.27749999999999997  ( Time taken  2.3914939761161804 secs per batch )
+Epoch  0 Batch No  5  Avg Loss (till now)  3.4537124633789062  Avg Score (till now)  0.26317647058823523  ( Time taken  2.5890761375427247 secs per batch )
+Epoch   0  Loss  3.4537124633789062  Score  0.26317647058823523
+Epoch  1 Batch No  1  Avg Loss (till now)  1.4033591747283936  Avg Score (till now)  0.195  ( Time taken  2.3101160526275635 secs per batch )
+Epoch  1 Batch No  2  Avg Loss (till now)  1.3750957250595093  Avg Score (till now)  0.23500000000000001  ( Time taken  2.3091436624526978 secs per batch )
+Epoch  1 Batch No  3  Avg Loss (till now)  1.354820688565572  Avg Score (till now)  0.3  ( Time taken  2.3114612897237143 secs per batch )
+Epoch  1 Batch No  4  Avg Loss (till now)  1.3301386535167694  Avg Score (till now)  0.32875  ( Time taken  2.314069449901581 secs per batch )
+Epoch  1 Batch No  5  Avg Loss (till now)  1.3018203735351563  Avg Score (till now)  0.35123529411764703  ( Time taken  1.9506365776062011 secs per batch )
+Epoch   1  Loss  1.3018203735351563  Score  0.35123529411764703
+Epoch  2 Batch No  1  Avg Loss (till now)  3.469856023788452  Avg Score (till now)  0.495  ( Time taken  2.3195459842681885 secs per batch )
+Epoch  2 Batch No  2  Avg Loss (till now)  3.327523350715637  Avg Score (till now)  0.485  ( Time taken  2.314633011817932 secs per batch )
+Epoch  2 Batch No  3  Avg Loss (till now)  2.622237761815389  Avg Score (till now)  0.47  ( Time taken  2.313993215560913 secs per batch )
+Epoch  2 Batch No  4  Avg Loss (till now)  2.275947093963623  Avg Score (till now)  0.46375  ( Time taken  2.311098277568817 secs per batch )
+Epoch  2 Batch No  5  Avg Loss (till now)  2.096390461921692  Avg Score (till now)  0.4239411764705882  ( Time taken  1.9476406574249268 secs per batch )
+Epoch   2  Loss  2.096390461921692  Score  0.4239411764705882
+Epoch  3 Batch No  1  Avg Loss (till now)  1.2700341939926147  Avg Score (till now)  0.45  ( Time taken  2.2991557121276855 secs per batch )
+Epoch  3 Batch No  2  Avg Loss (till now)  1.2893173098564148  Avg Score (till now)  0.4175  ( Time taken  2.2998241186141968 secs per batch )
+Epoch  3 Batch No  3  Avg Loss (till now)  1.2857986291249592  Avg Score (till now)  0.435  ( Time taken  2.3031864166259766 secs per batch )
+Epoch  3 Batch No  4  Avg Loss (till now)  1.2846057713031769  Avg Score (till now)  0.43  ( Time taken  2.301488220691681 secs per batch )
+Epoch  3 Batch No  5  Avg Loss (till now)  1.2749341964721679  Avg Score (till now)  0.4145882352941176  ( Time taken  1.940732765197754 secs per batch )
+Epoch   3  Loss  1.2749341964721679  Score  0.4145882352941176
+Epoch  4 Batch No  1  Avg Loss (till now)  1.8252638578414917  Avg Score (till now)  0.48  ( Time taken  2.3044400215148926 secs per batch )
+Epoch  4 Batch No  2  Avg Loss (till now)  1.9150922894477844  Avg Score (till now)  0.49  ( Time taken  2.3008984327316284 secs per batch )
+Epoch  4 Batch No  3  Avg Loss (till now)  1.729445219039917  Avg Score (till now)  0.4716666666666667  ( Time taken  2.3010733922322593 secs per batch )
+Epoch  4 Batch No  4  Avg Loss (till now)  1.6101343929767609  Avg Score (till now)  0.46875  ( Time taken  2.3030704259872437 secs per batch )
+Epoch  4 Batch No  5  Avg Loss (till now)  1.54031822681427  Avg Score (till now)  0.46911764705882353  ( Time taken  1.9410229206085206 secs per batch )
+Epoch   4  Loss  1.54031822681427  Score  0.46911764705882353
+Epoch  5 Batch No  1  Avg Loss (till now)  1.233469843864441  Avg Score (till now)  0.43  ( Time taken  2.3105363845825195 secs per batch )
+Epoch  5 Batch No  2  Avg Loss (till now)  1.269492506980896  Avg Score (till now)  0.4  ( Time taken  2.3005889654159546 secs per batch )
+Epoch  5 Batch No  3  Avg Loss (till now)  1.2670560280481975  Avg Score (till now)  0.4183333333333334  ( Time taken  2.3002498944600425 secs per batch )
+Epoch  5 Batch No  4  Avg Loss (till now)  1.2665590345859528  Avg Score (till now)  0.41625  ( Time taken  2.3010602593421936 secs per batch )
+Epoch  5 Batch No  5  Avg Loss (till now)  1.2610385417938232  Avg Score (till now)  0.4212352941176471  ( Time taken  1.9396112442016602 secs per batch )
+Epoch   5  Loss  1.2610385417938232  Score  0.4212352941176471
+Epoch  6 Batch No  1  Avg Loss (till now)  1.238417387008667  Avg Score (till now)  0.455  ( Time taken  2.304703712463379 secs per batch )
+Epoch  6 Batch No  2  Avg Loss (till now)  1.3981876373291016  Avg Score (till now)  0.46499999999999997  ( Time taken  2.298903703689575 secs per batch )
+Epoch  6 Batch No  3  Avg Loss (till now)  1.4715667168299358  Avg Score (till now)  0.4666666666666666  ( Time taken  2.3014045556386313 secs per batch )
+Epoch  6 Batch No  4  Avg Loss (till now)  1.4149065911769867  Avg Score (till now)  0.46375  ( Time taken  2.301334857940674 secs per batch )
+Epoch  6 Batch No  5  Avg Loss (till now)  1.3895246267318726  Avg Score (till now)  0.45335294117647057  ( Time taken  1.9406503200531007 secs per batch )
+Epoch   6  Loss  1.3895246267318726  Score  0.45335294117647057
+Epoch  7 Batch No  1  Avg Loss (till now)  1.155235767364502  Avg Score (till now)  0.46  ( Time taken  2.2941319942474365 secs per batch )
+Epoch  7 Batch No  2  Avg Loss (till now)  1.2085038423538208  Avg Score (till now)  0.44  ( Time taken  2.291539430618286 secs per batch )
+Epoch  7 Batch No  3  Avg Loss (till now)  1.2405064503351848  Avg Score (till now)  0.4183333333333333  ( Time taken  2.2958231767018638 secs per batch )
+Epoch  7 Batch No  4  Avg Loss (till now)  1.2456394731998444  Avg Score (till now)  0.40625  ( Time taken  2.2976406812667847 secs per batch )
+Epoch  7 Batch No  5  Avg Loss (till now)  1.246995782852173  Avg Score (till now)  0.3955882352941177  ( Time taken  1.9366587162017823 secs per batch )
+Epoch   7  Loss  1.246995782852173  Score  0.3955882352941177
+Epoch  8 Batch No  1  Avg Loss (till now)  1.299282431602478  Avg Score (till now)  0.4  ( Time taken  2.312253952026367 secs per batch )
+Epoch  8 Batch No  2  Avg Loss (till now)  1.322940468788147  Avg Score (till now)  0.405  ( Time taken  2.3045756816864014 secs per batch )
+Epoch  8 Batch No  3  Avg Loss (till now)  1.3813279469807942  Avg Score (till now)  0.45  ( Time taken  2.302987972895304 secs per batch )
+Epoch  8 Batch No  4  Avg Loss (till now)  1.3188837170600891  Avg Score (till now)  0.48  ( Time taken  2.3046452403068542 secs per batch )
+Epoch  8 Batch No  5  Avg Loss (till now)  1.2924496173858642  Avg Score (till now)  0.4722352941176471  ( Time taken  1.9426947593688966 secs per batch )
+Epoch   8  Loss  1.2924496173858642  Score  0.4722352941176471
+Epoch  9 Batch No  1  Avg Loss (till now)  1.224768877029419  Avg Score (till now)  0.45  ( Time taken  2.309227705001831 secs per batch )
+Epoch  9 Batch No  2  Avg Loss (till now)  1.2186760902404785  Avg Score (till now)  0.47  ( Time taken  2.3081302642822266 secs per batch )
+Epoch  9 Batch No  3  Avg Loss (till now)  1.2408970594406128  Avg Score (till now)  0.46166666666666667  ( Time taken  2.306316057840983 secs per batch )
+Epoch  9 Batch No  4  Avg Loss (till now)  1.2524186670780182  Avg Score (till now)  0.44375  ( Time taken  2.3053741455078125 secs per batch )
+Epoch  9 Batch No  5  Avg Loss (till now)  1.2733202219009399  Avg Score (till now)  0.43735294117647056  ( Time taken  1.9440263748168944 secs per batch )
+Epoch   9  Loss  1.2733202219009399  Score  0.43735294117647056
+Starting cluster ( 73 ):   ['crouching', 'kneeling', 'squatting', 'crouched', 'fallen', 'falling']
+<class 'datasets.visual_genome_attribute_object.VisualGenomeAttributeCatalog'>
+number of classes  2
+initialized _Net model
+loading checkpoint from %s checkpoints/8/73
+Model initialized... Not loaded
+transferred model to gpu
+save dir  /dccstor/cssblr/amrita/Concept_Catalog_VQA/multiclass_unilabel_cce_level2_attribute/checkpoints/8/73
+Starting ...
+Starting Training ...
+Epoch  0 Batch No  1  Avg Loss (till now)  0.6860266923904419  Avg Score (till now)  0.645  ( Time taken  2.576716661453247 secs per batch )
+Epoch  0 Batch No  2  Avg Loss (till now)  9.583061754703522  Avg Score (till now)  0.6825  ( Time taken  2.449167847633362 secs per batch )
+Epoch  0 Batch No  3  Avg Loss (till now)  7.330829501152039  Avg Score (till now)  0.6816666666666666  ( Time taken  2.4041781425476074 secs per batch )
+Epoch  0 Batch No  4  Avg Loss (till now)  5.672081023454666  Avg Score (till now)  0.5925  ( Time taken  2.382816970348358 secs per batch )
+Epoch  0 Batch No  5  Avg Loss (till now)  4.676664555072785  Avg Score (till now)  0.603  ( Time taken  2.3698728561401365 secs per batch )
+Epoch  0 Batch No  6  Avg Loss (till now)  4.011349588632584  Avg Score (till now)  0.6066666666666667  ( Time taken  2.362408479054769 secs per batch )
+Epoch  0 Batch No  7  Avg Loss (till now)  3.5326084153992787  Avg Score (till now)  0.615  ( Time taken  2.3558995042528426 secs per batch )
+Epoch  0 Batch No  8  Avg Loss (till now)  3.23533346503973  Avg Score (till now)  0.6243749999999999  ( Time taken  2.350033074617386 secs per batch )
+Epoch  0 Batch No  9  Avg Loss (till now)  2.9483786291546292  Avg Score (till now)  0.6288888888888888  ( Time taken  2.3463514380984836 secs per batch )
+Epoch  0 Batch No  10  Avg Loss (till now)  2.7777063846588135  Avg Score (till now)  0.5945714285714285  ( Time taken  2.312187123298645 secs per batch )
+Epoch   0  Loss  2.7777063846588135  Score  0.5945714285714285
+Epoch  1 Batch No  1  Avg Loss (till now)  0.6487773060798645  Avg Score (till now)  0.64  ( Time taken  2.307765483856201 secs per batch )
+Epoch  1 Batch No  2  Avg Loss (till now)  0.6375988125801086  Avg Score (till now)  0.66  ( Time taken  2.3151655197143555 secs per batch )
+Epoch  1 Batch No  3  Avg Loss (till now)  0.6409955620765686  Avg Score (till now)  0.6516666666666667  ( Time taken  2.314589579900106 secs per batch )
+Epoch  1 Batch No  4  Avg Loss (till now)  0.639369860291481  Avg Score (till now)  0.64875  ( Time taken  2.3143011331558228 secs per batch )
+Epoch  1 Batch No  5  Avg Loss (till now)  0.6336394548416138  Avg Score (till now)  0.653  ( Time taken  2.316428804397583 secs per batch )
+Epoch  1 Batch No  6  Avg Loss (till now)  0.6248654921849569  Avg Score (till now)  0.6591666666666667  ( Time taken  2.3167317708333335 secs per batch )
+Epoch  1 Batch No  7  Avg Loss (till now)  0.6184181826455253  Avg Score (till now)  0.6621428571428571  ( Time taken  2.3153329576764787 secs per batch )
+Epoch  1 Batch No  8  Avg Loss (till now)  0.6080528497695923  Avg Score (till now)  0.6675  ( Time taken  2.314730167388916 secs per batch )
+Epoch  1 Batch No  9  Avg Loss (till now)  0.6066754460334778  Avg Score (till now)  0.6627777777777778  ( Time taken  2.3151333067152233 secs per batch )
+Epoch  1 Batch No  10  Avg Loss (till now)  0.6102353870868683  Avg Score (till now)  0.6679285714285714  ( Time taken  2.1037392139434816 secs per batch )
+Epoch   1  Loss  0.6102353870868683  Score  0.6679285714285714
+Epoch  2 Batch No  1  Avg Loss (till now)  0.5327192544937134  Avg Score (till now)  0.74  ( Time taken  2.314918041229248 secs per batch )
+Epoch  2 Batch No  2  Avg Loss (till now)  0.7682554721832275  Avg Score (till now)  0.7025  ( Time taken  2.3119804859161377 secs per batch )
+Epoch  2 Batch No  3  Avg Loss (till now)  0.7329603830973307  Avg Score (till now)  0.6933333333333334  ( Time taken  2.311187426249186 secs per batch )
+Epoch  2 Batch No  4  Avg Loss (till now)  0.7070303112268448  Avg Score (till now)  0.7025  ( Time taken  2.311954915523529 secs per batch )
+Epoch  2 Batch No  5  Avg Loss (till now)  0.6961075067520142  Avg Score (till now)  0.7030000000000001  ( Time taken  2.3121853351593016 secs per batch )
+Epoch  2 Batch No  6  Avg Loss (till now)  0.6868071456750234  Avg Score (till now)  0.7016666666666667  ( Time taken  2.3124974568684897 secs per batch )
+Epoch  2 Batch No  7  Avg Loss (till now)  0.6771868211882455  Avg Score (till now)  0.6992857142857142  ( Time taken  2.312863894871303 secs per batch )
+Epoch  2 Batch No  8  Avg Loss (till now)  0.6625960543751717  Avg Score (till now)  0.6975  ( Time taken  2.311676412820816 secs per batch )
+Epoch  2 Batch No  9  Avg Loss (till now)  0.6547848913404677  Avg Score (till now)  0.6922222222222223  ( Time taken  2.3124080763922796 secs per batch )
+Epoch  2 Batch No  10  Avg Loss (till now)  0.6188838630914688  Avg Score (till now)  0.7230000000000001  ( Time taken  2.1013907909393312 secs per batch )
+Epoch   2  Loss  0.6188838630914688  Score  0.7230000000000001
+Epoch  3 Batch No  1  Avg Loss (till now)  0.5376667976379395  Avg Score (till now)  0.725  ( Time taken  2.309025526046753 secs per batch )
+Epoch  3 Batch No  2  Avg Loss (till now)  0.511474221944809  Avg Score (till now)  0.7625  ( Time taken  2.3091706037521362 secs per batch )
+Epoch  3 Batch No  3  Avg Loss (till now)  0.4960603316624959  Avg Score (till now)  0.765  ( Time taken  2.3101518948872886 secs per batch )
+Epoch  3 Batch No  4  Avg Loss (till now)  0.4937712103128433  Avg Score (till now)  0.775  ( Time taken  2.310961902141571 secs per batch )
+Epoch  3 Batch No  5  Avg Loss (till now)  0.47161334156990053  Avg Score (till now)  0.782  ( Time taken  2.3100741386413572 secs per batch )
+Epoch  3 Batch No  6  Avg Loss (till now)  0.48046595354874927  Avg Score (till now)  0.7816666666666667  ( Time taken  2.3115272919336953 secs per batch )
+Epoch  3 Batch No  7  Avg Loss (till now)  0.4721348541123526  Avg Score (till now)  0.7814285714285715  ( Time taken  2.3115382875714983 secs per batch )
+Epoch  3 Batch No  8  Avg Loss (till now)  0.4760953560471535  Avg Score (till now)  0.774375  ( Time taken  2.310998946428299 secs per batch )
+Epoch  3 Batch No  9  Avg Loss (till now)  0.47543860144085354  Avg Score (till now)  0.7738888888888888  ( Time taken  2.3109063837263317 secs per batch )
+Epoch  3 Batch No  10  Avg Loss (till now)  0.4814200162887573  Avg Score (till now)  0.7822142857142856  ( Time taken  2.1000996112823485 secs per batch )
+Epoch   3  Loss  0.4814200162887573  Score  0.7822142857142856
+Epoch  4 Batch No  1  Avg Loss (till now)  0.4597526788711548  Avg Score (till now)  0.78  ( Time taken  2.3038413524627686 secs per batch )
+Epoch  4 Batch No  2  Avg Loss (till now)  0.4382407069206238  Avg Score (till now)  0.7975  ( Time taken  2.3075783252716064 secs per batch )
+Epoch  4 Batch No  3  Avg Loss (till now)  0.431948721408844  Avg Score (till now)  0.815  ( Time taken  2.309032917022705 secs per batch )
+Epoch  4 Batch No  4  Avg Loss (till now)  0.43634286522865295  Avg Score (till now)  0.8099999999999999  ( Time taken  2.309510588645935 secs per batch )
+Epoch  4 Batch No  5  Avg Loss (till now)  0.43567182421684264  Avg Score (till now)  0.8109999999999999  ( Time taken  2.309192991256714 secs per batch )
+Epoch  4 Batch No  6  Avg Loss (till now)  0.4449959099292755  Avg Score (till now)  0.8141666666666666  ( Time taken  2.3100168307622275 secs per batch )
+Epoch  4 Batch No  7  Avg Loss (till now)  0.4459243587085179  Avg Score (till now)  0.8099999999999999  ( Time taken  2.3106251784733365 secs per batch )
+Epoch  4 Batch No  8  Avg Loss (till now)  0.44189484417438507  Avg Score (till now)  0.80875  ( Time taken  2.309622287750244 secs per batch )
+Epoch  4 Batch No  9  Avg Loss (till now)  0.43949440783924526  Avg Score (till now)  0.8083333333333332  ( Time taken  2.310001638200548 secs per batch )
+Epoch  4 Batch No  10  Avg Loss (till now)  0.4630854159593582  Avg Score (till now)  0.7989285714285714  ( Time taken  2.0986604928970336 secs per batch )
+Epoch   4  Loss  0.4630854159593582  Score  0.7989285714285714
+Epoch  5 Batch No  1  Avg Loss (till now)  0.4137077033519745  Avg Score (till now)  0.825  ( Time taken  2.30552339553833 secs per batch )
+Epoch  5 Batch No  2  Avg Loss (till now)  0.41717664897441864  Avg Score (till now)  0.8225  ( Time taken  2.3093700408935547 secs per batch )
+Epoch  5 Batch No  3  Avg Loss (till now)  0.42628241578737897  Avg Score (till now)  0.8133333333333334  ( Time taken  2.31023375193278 secs per batch )
+Epoch  5 Batch No  4  Avg Loss (till now)  0.411061130464077  Avg Score (till now)  0.8162499999999999  ( Time taken  2.3105522990226746 secs per batch )
+Epoch  5 Batch No  5  Avg Loss (till now)  0.41755492687225343  Avg Score (till now)  0.8139999999999998  ( Time taken  2.3106391429901123 secs per batch )
+Epoch  5 Batch No  6  Avg Loss (till now)  0.41061436136563617  Avg Score (till now)  0.8199999999999998  ( Time taken  2.311687628428141 secs per batch )
+Epoch  5 Batch No  7  Avg Loss (till now)  0.4054322668484279  Avg Score (till now)  0.8278571428571427  ( Time taken  2.3108998026166643 secs per batch )
+Epoch  5 Batch No  8  Avg Loss (till now)  0.40410807356238365  Avg Score (till now)  0.8268749999999999  ( Time taken  2.311383843421936 secs per batch )
+Epoch  5 Batch No  9  Avg Loss (till now)  0.40643226438098484  Avg Score (till now)  0.8277777777777777  ( Time taken  2.3110092216067843 secs per batch )
+Epoch  5 Batch No  10  Avg Loss (till now)  0.43360538482666017  Avg Score (till now)  0.8164285714285713  ( Time taken  2.100138282775879 secs per batch )
+Epoch   5  Loss  0.43360538482666017  Score  0.8164285714285713
+Epoch  6 Batch No  1  Avg Loss (till now)  0.4154883623123169  Avg Score (till now)  0.845  ( Time taken  2.3095831871032715 secs per batch )
+Epoch  6 Batch No  2  Avg Loss (till now)  0.3753115087747574  Avg Score (till now)  0.87  ( Time taken  2.308583974838257 secs per batch )
+Epoch  6 Batch No  3  Avg Loss (till now)  0.37981369098027545  Avg Score (till now)  0.8616666666666667  ( Time taken  2.3095324834187827 secs per batch )
+Epoch  6 Batch No  4  Avg Loss (till now)  0.375169962644577  Avg Score (till now)  0.85875  ( Time taken  2.309040665626526 secs per batch )
+Epoch  6 Batch No  5  Avg Loss (till now)  0.3732419371604919  Avg Score (till now)  0.8550000000000001  ( Time taken  2.3076504707336425 secs per batch )
+Epoch  6 Batch No  6  Avg Loss (till now)  0.3647704819838206  Avg Score (till now)  0.8583333333333334  ( Time taken  2.307721495628357 secs per batch )
+Epoch  6 Batch No  7  Avg Loss (till now)  0.36713913083076477  Avg Score (till now)  0.8564285714285714  ( Time taken  2.3073123523167203 secs per batch )
+Epoch  6 Batch No  8  Avg Loss (till now)  0.3818810097873211  Avg Score (till now)  0.848125  ( Time taken  2.308869183063507 secs per batch )
+Epoch  6 Batch No  9  Avg Loss (till now)  0.38379762570063275  Avg Score (till now)  0.8505555555555556  ( Time taken  2.30973572201199 secs per batch )
+Epoch  6 Batch No  10  Avg Loss (till now)  0.3933040589094162  Avg Score (till now)  0.8369285714285715  ( Time taken  2.0987395286560058 secs per batch )
+Epoch   6  Loss  0.3933040589094162  Score  0.8369285714285715
+Epoch  7 Batch No  1  Avg Loss (till now)  0.41547298431396484  Avg Score (till now)  0.865  ( Time taken  2.309133291244507 secs per batch )
+Epoch  7 Batch No  2  Avg Loss (till now)  0.3819133788347244  Avg Score (till now)  0.86  ( Time taken  2.3127665519714355 secs per batch )
+Epoch  7 Batch No  3  Avg Loss (till now)  0.37973079085350037  Avg Score (till now)  0.8616666666666667  ( Time taken  2.312011957168579 secs per batch )
+Epoch  7 Batch No  4  Avg Loss (till now)  0.3876669853925705  Avg Score (till now)  0.8574999999999999  ( Time taken  2.314276337623596 secs per batch )
+Epoch  7 Batch No  5  Avg Loss (till now)  0.3723737895488739  Avg Score (till now)  0.8629999999999999  ( Time taken  2.313072109222412 secs per batch )
+Epoch  7 Batch No  6  Avg Loss (till now)  0.36700989802678424  Avg Score (till now)  0.8666666666666666  ( Time taken  2.3141878843307495 secs per batch )
+Epoch  7 Batch No  7  Avg Loss (till now)  0.3691794276237488  Avg Score (till now)  0.8628571428571428  ( Time taken  2.314300673348563 secs per batch )
+Epoch  7 Batch No  8  Avg Loss (till now)  0.358379241079092  Avg Score (till now)  0.8649999999999999  ( Time taken  2.3143138885498047 secs per batch )
+Epoch  7 Batch No  9  Avg Loss (till now)  0.362000478638543  Avg Score (till now)  0.8644444444444443  ( Time taken  2.3137669298383923 secs per batch )
+Epoch  7 Batch No  10  Avg Loss (till now)  0.387535548210144  Avg Score (till now)  0.8208571428571428  ( Time taken  2.1021949529647825 secs per batch )
+Epoch   7  Loss  0.387535548210144  Score  0.8208571428571428
+Epoch  8 Batch No  1  Avg Loss (till now)  0.33025240898132324  Avg Score (till now)  0.905  ( Time taken  2.3144712448120117 secs per batch )
+Epoch  8 Batch No  2  Avg Loss (till now)  0.3653748333454132  Avg Score (till now)  0.8775  ( Time taken  2.313104033470154 secs per batch )
+Epoch  8 Batch No  3  Avg Loss (till now)  0.3734154999256134  Avg Score (till now)  0.8683333333333333  ( Time taken  2.3111974398295083 secs per batch )
+Epoch  8 Batch No  4  Avg Loss (till now)  0.36847153306007385  Avg Score (till now)  0.86875  ( Time taken  2.313123345375061 secs per batch )
+Epoch  8 Batch No  5  Avg Loss (till now)  0.3797336995601654  Avg Score (till now)  0.874  ( Time taken  2.31147985458374 secs per batch )
+Epoch  8 Batch No  6  Avg Loss (till now)  0.38745954632759094  Avg Score (till now)  0.8650000000000001  ( Time taken  2.312312046686808 secs per batch )
+Epoch  8 Batch No  7  Avg Loss (till now)  0.39055308273860384  Avg Score (till now)  0.8635714285714285  ( Time taken  2.312161820275443 secs per batch )
+Epoch  8 Batch No  8  Avg Loss (till now)  0.3847667872905731  Avg Score (till now)  0.861875  ( Time taken  2.3119455575942993 secs per batch )
+Epoch  8 Batch No  9  Avg Loss (till now)  0.38203682170973885  Avg Score (till now)  0.8594444444444443  ( Time taken  2.3116433090633817 secs per batch )
+Epoch  8 Batch No  10  Avg Loss (till now)  0.3734808534383774  Avg Score (till now)  0.8592142857142857  ( Time taken  2.10028235912323 secs per batch )
+Epoch   8  Loss  0.3734808534383774  Score  0.8592142857142857
+Epoch  9 Batch No  1  Avg Loss (till now)  0.4093983471393585  Avg Score (till now)  0.83  ( Time taken  2.301555871963501 secs per batch )
+Epoch  9 Batch No  2  Avg Loss (till now)  0.3980339616537094  Avg Score (till now)  0.86  ( Time taken  2.305245876312256 secs per batch )
+Epoch  9 Batch No  3  Avg Loss (till now)  0.39018164078394574  Avg Score (till now)  0.8716666666666667  ( Time taken  2.3039193153381348 secs per batch )
+Epoch  9 Batch No  4  Avg Loss (till now)  0.3804178684949875  Avg Score (till now)  0.8762500000000001  ( Time taken  2.3030412793159485 secs per batch )
+Epoch  9 Batch No  5  Avg Loss (till now)  0.3759257733821869  Avg Score (till now)  0.8800000000000001  ( Time taken  2.303655481338501 secs per batch )
+Epoch  9 Batch No  6  Avg Loss (till now)  0.3656492481629054  Avg Score (till now)  0.8808333333333334  ( Time taken  2.3040494521458945 secs per batch )
+Epoch  9 Batch No  7  Avg Loss (till now)  0.362605665411268  Avg Score (till now)  0.8842857142857143  ( Time taken  2.304543972015381 secs per batch )
+Epoch  9 Batch No  8  Avg Loss (till now)  0.363029420375824  Avg Score (till now)  0.88  ( Time taken  2.3046461045742035 secs per batch )
+Epoch  9 Batch No  9  Avg Loss (till now)  0.36963341302341884  Avg Score (till now)  0.8777777777777778  ( Time taken  2.3047534624735513 secs per batch )
+Epoch  9 Batch No  10  Avg Loss (till now)  0.4375681310892105  Avg Score (till now)  0.8614285714285714  ( Time taken  2.09373025894165 secs per batch )
+Epoch   9  Loss  0.4375681310892105  Score  0.8614285714285714
+Starting cluster ( 74 ):   ['fuzzy', 'blurred', 'hazy', 'blurry', 'focused']
+<class 'datasets.visual_genome_attribute_object.VisualGenomeAttributeCatalog'>
+number of classes  2
+initialized _Net model
+loading checkpoint from %s checkpoints/8/74
+Model initialized... Not loaded
+transferred model to gpu
+save dir  /dccstor/cssblr/amrita/Concept_Catalog_VQA/multiclass_unilabel_cce_level2_attribute/checkpoints/8/74
+Starting ...
+Starting Training ...
+Epoch  0 Batch No  1  Avg Loss (till now)  0.6961449980735779  Avg Score (till now)  0.43  ( Time taken  2.611107110977173 secs per batch )
+Epoch  0 Batch No  2  Avg Loss (till now)  1.129486232995987  Avg Score (till now)  0.695  ( Time taken  2.4638503789901733 secs per batch )
+Epoch  0 Batch No  3  Avg Loss (till now)  0.8589671552181244  Avg Score (till now)  0.7933333333333333  ( Time taken  2.4131720860799155 secs per batch )
+Epoch  0 Batch No  4  Avg Loss (till now)  0.7950837835669518  Avg Score (till now)  0.8325  ( Time taken  2.3859121799468994 secs per batch )
+Epoch  0 Batch No  5  Avg Loss (till now)  0.6623491883277893  Avg Score (till now)  0.8620000000000001  ( Time taken  2.369470500946045 secs per batch )
+Epoch  0 Batch No  6  Avg Loss (till now)  0.6009984314441681  Avg Score (till now)  0.8791666666666668  ( Time taken  2.3585927883783975 secs per batch )
+Epoch  0 Batch No  7  Avg Loss (till now)  0.547138871891158  Avg Score (till now)  0.8907142857142858  ( Time taken  2.3509894779750278 secs per batch )
+Epoch  0 Batch No  8  Avg Loss (till now)  0.5034089721739292  Avg Score (till now)  0.900625  ( Time taken  2.3456925451755524 secs per batch )
+Epoch  0 Batch No  9  Avg Loss (till now)  0.4737296866046058  Avg Score (till now)  0.9083333333333334  ( Time taken  2.3408191998799643 secs per batch )
+Epoch  0 Batch No  10  Avg Loss (till now)  0.44481220096349716  Avg Score (till now)  0.915  ( Time taken  2.3371177673339845 secs per batch )
+Epoch  0 Batch No  11  Avg Loss (till now)  0.42041522670875897  Avg Score (till now)  0.920909090909091  ( Time taken  2.3340000456029717 secs per batch )
+Epoch  0 Batch No  12  Avg Loss (till now)  0.40337032700578374  Avg Score (till now)  0.9250000000000002  ( Time taken  2.331349015235901 secs per batch )
+Epoch  0 Batch No  13  Avg Loss (till now)  0.39077980930988604  Avg Score (till now)  0.9273076923076924  ( Time taken  2.328584762719961 secs per batch )
+Epoch  0 Batch No  14  Avg Loss (till now)  0.38102212122508455  Avg Score (till now)  0.9285714285714287  ( Time taken  2.326397640364511 secs per batch )
+Epoch  0 Batch No  15  Avg Loss (till now)  0.3675239264965057  Avg Score (till now)  0.9310000000000002  ( Time taken  2.324207814534505 secs per batch )
+Epoch  0 Batch No  16  Avg Loss (till now)  0.3550879880785942  Avg Score (till now)  0.9330935650887575  ( Time taken  2.8245228081941605 secs per batch )
+Epoch   0  Loss  0.3550879880785942  Score  0.9330935650887575
+Epoch  1 Batch No  1  Avg Loss (till now)  0.23188990354537964  Avg Score (till now)  0.945  ( Time taken  2.2909204959869385 secs per batch )
+Epoch  1 Batch No  2  Avg Loss (till now)  0.20640988647937775  Avg Score (till now)  0.965  ( Time taken  2.2927931547164917 secs per batch )
+Epoch  1 Batch No  3  Avg Loss (till now)  0.2034046451250712  Avg Score (till now)  0.9700000000000001  ( Time taken  2.292809089024862 secs per batch )
+Epoch  1 Batch No  4  Avg Loss (till now)  0.1863008514046669  Avg Score (till now)  0.9712500000000001  ( Time taken  2.2952482104301453 secs per batch )
+Epoch  1 Batch No  5  Avg Loss (till now)  0.16942305713891984  Avg Score (till now)  0.976  ( Time taken  2.296880292892456 secs per batch )
+Epoch  1 Batch No  6  Avg Loss (till now)  0.21921767915288606  Avg Score (till now)  0.9700000000000001  ( Time taken  2.2977335453033447 secs per batch )
+Epoch  1 Batch No  7  Avg Loss (till now)  0.22273960603134974  Avg Score (till now)  0.9685714285714286  ( Time taken  2.2968236037663052 secs per batch )
+Epoch  1 Batch No  8  Avg Loss (till now)  0.23315738048404455  Avg Score (till now)  0.9656250000000001  ( Time taken  2.2970040440559387 secs per batch )
+Epoch  1 Batch No  9  Avg Loss (till now)  0.2371669105357594  Avg Score (till now)  0.963888888888889  ( Time taken  2.2971729967329235 secs per batch )
+Epoch  1 Batch No  10  Avg Loss (till now)  0.22753258869051934  Avg Score (till now)  0.9655000000000001  ( Time taken  2.297137713432312 secs per batch )
+Epoch  1 Batch No  11  Avg Loss (till now)  0.21885931424119257  Avg Score (till now)  0.9663636363636364  ( Time taken  2.2976439866152676 secs per batch )
+Epoch  1 Batch No  12  Avg Loss (till now)  0.21411842914919058  Avg Score (till now)  0.96625  ( Time taken  2.2974634369214377 secs per batch )
+Epoch  1 Batch No  13  Avg Loss (till now)  0.20690832287073135  Avg Score (till now)  0.9673076923076924  ( Time taken  2.2975814525897684 secs per batch )
+Epoch  1 Batch No  14  Avg Loss (till now)  0.20458014469061578  Avg Score (till now)  0.9675000000000001  ( Time taken  2.2974635532924106 secs per batch )
+Epoch  1 Batch No  15  Avg Loss (till now)  0.19769492745399475  Avg Score (till now)  0.9683333333333335  ( Time taken  2.297114531199137 secs per batch )
+Epoch  1 Batch No  16  Avg Loss (till now)  0.20049428846687078  Avg Score (till now)  0.9677237426035504  ( Time taken  2.2750057727098465 secs per batch )
+Epoch   1  Loss  0.20049428846687078  Score  0.9677237426035504
+Epoch  2 Batch No  1  Avg Loss (till now)  0.24458660185337067  Avg Score (till now)  0.96  ( Time taken  2.2965660095214844 secs per batch )
+Epoch  2 Batch No  2  Avg Loss (till now)  0.21075157821178436  Avg Score (till now)  0.965  ( Time taken  2.3018358945846558 secs per batch )
+Epoch  2 Batch No  3  Avg Loss (till now)  0.20865555107593536  Avg Score (till now)  0.9633333333333333  ( Time taken  2.303544203440348 secs per batch )
+Epoch  2 Batch No  4  Avg Loss (till now)  0.19373705983161926  Avg Score (till now)  0.9674999999999999  ( Time taken  2.300928473472595 secs per batch )
+Epoch  2 Batch No  5  Avg Loss (till now)  0.20569000244140626  Avg Score (till now)  0.961  ( Time taken  2.300466442108154 secs per batch )
+Epoch  2 Batch No  6  Avg Loss (till now)  0.19925376524527869  Avg Score (till now)  0.9624999999999999  ( Time taken  2.2998313109079995 secs per batch )
+Epoch  2 Batch No  7  Avg Loss (till now)  0.19630266513143266  Avg Score (till now)  0.9621428571428571  ( Time taken  2.300553662436349 secs per batch )
+Epoch  2 Batch No  8  Avg Loss (till now)  0.18602977320551872  Avg Score (till now)  0.9637499999999999  ( Time taken  2.299862563610077 secs per batch )
+Epoch  2 Batch No  9  Avg Loss (till now)  0.18526846832699245  Avg Score (till now)  0.9638888888888888  ( Time taken  2.2997010813819037 secs per batch )
+Epoch  2 Batch No  10  Avg Loss (till now)  0.1832444801926613  Avg Score (till now)  0.9639999999999999  ( Time taken  2.2989991188049315 secs per batch )
+Epoch  2 Batch No  11  Avg Loss (till now)  0.18144097246906973  Avg Score (till now)  0.9636363636363634  ( Time taken  2.2996427796103736 secs per batch )
+Epoch  2 Batch No  12  Avg Loss (till now)  0.17702990770339966  Avg Score (till now)  0.9654166666666665  ( Time taken  2.299712280432383 secs per batch )
+Epoch  2 Batch No  13  Avg Loss (till now)  0.17324731327020204  Avg Score (till now)  0.9661538461538459  ( Time taken  2.299686706983126 secs per batch )
+Epoch  2 Batch No  14  Avg Loss (till now)  0.16955253268991197  Avg Score (till now)  0.966785714285714  ( Time taken  2.2990778173719133 secs per batch )
+Epoch  2 Batch No  15  Avg Loss (till now)  0.16841093301773072  Avg Score (till now)  0.9666666666666665  ( Time taken  2.2994595686594645 secs per batch )
+Epoch  2 Batch No  16  Avg Loss (till now)  0.16406015679240227  Avg Score (till now)  0.9676405325443784  ( Time taken  2.277316689491272 secs per batch )
+Epoch   2  Loss  0.16406015679240227  Score  0.9676405325443784
+Epoch  3 Batch No  1  Avg Loss (till now)  0.21780027449131012  Avg Score (till now)  0.96  ( Time taken  2.298929214477539 secs per batch )
+Epoch  3 Batch No  2  Avg Loss (till now)  0.21864138543605804  Avg Score (till now)  0.9575  ( Time taken  2.298601269721985 secs per batch )
+Epoch  3 Batch No  3  Avg Loss (till now)  0.17538248747587204  Avg Score (till now)  0.9666666666666667  ( Time taken  2.2955168883005777 secs per batch )
+Epoch  3 Batch No  4  Avg Loss (till now)  0.18048120476305485  Avg Score (till now)  0.965  ( Time taken  2.295387625694275 secs per batch )
+Epoch  3 Batch No  5  Avg Loss (till now)  0.18179806619882583  Avg Score (till now)  0.9629999999999999  ( Time taken  2.2987668991088865 secs per batch )
+Epoch  3 Batch No  6  Avg Loss (till now)  0.16867323343952498  Avg Score (till now)  0.9666666666666667  ( Time taken  2.2988497416178384 secs per batch )
+Epoch  3 Batch No  7  Avg Loss (till now)  0.16375752751316344  Avg Score (till now)  0.9671428571428571  ( Time taken  2.2999638489314487 secs per batch )
+Epoch  3 Batch No  8  Avg Loss (till now)  0.15873031876981258  Avg Score (till now)  0.9681249999999999  ( Time taken  2.2997647523880005 secs per batch )
+Epoch  3 Batch No  9  Avg Loss (till now)  0.16081587307982975  Avg Score (till now)  0.967222222222222  ( Time taken  2.2991891966925726 secs per batch )
+Epoch  3 Batch No  10  Avg Loss (till now)  0.15687034651637077  Avg Score (till now)  0.9684999999999999  ( Time taken  2.2987696170806884 secs per batch )
+Epoch  3 Batch No  11  Avg Loss (till now)  0.1629044623537497  Avg Score (till now)  0.9663636363636363  ( Time taken  2.2986799586902964 secs per batch )
+Epoch  3 Batch No  12  Avg Loss (till now)  0.1642040777951479  Avg Score (till now)  0.9666666666666667  ( Time taken  2.2985180417696633 secs per batch )
+Epoch  3 Batch No  13  Avg Loss (till now)  0.1625691016133015  Avg Score (till now)  0.9665384615384615  ( Time taken  2.297663688659668 secs per batch )
+Epoch  3 Batch No  14  Avg Loss (till now)  0.15966425197465078  Avg Score (till now)  0.9667857142857142  ( Time taken  2.2983213663101196 secs per batch )
+Epoch  3 Batch No  15  Avg Loss (till now)  0.1564370055993398  Avg Score (till now)  0.9673333333333333  ( Time taken  2.298257764180501 secs per batch )
+Epoch  3 Batch No  16  Avg Loss (till now)  0.15270010568201542  Avg Score (till now)  0.9678957100591716  ( Time taken  2.275806427001953 secs per batch )
+Epoch   3  Loss  0.15270010568201542  Score  0.9678957100591716
+Epoch  4 Batch No  1  Avg Loss (till now)  0.12643791735172272  Avg Score (till now)  0.98  ( Time taken  2.3087000846862793 secs per batch )
+Epoch  4 Batch No  2  Avg Loss (till now)  0.12696344405412674  Avg Score (till now)  0.975  ( Time taken  2.3014943599700928 secs per batch )
+Epoch  4 Batch No  3  Avg Loss (till now)  0.1561941554148992  Avg Score (till now)  0.965  ( Time taken  2.3033100763956704 secs per batch )
+Epoch  4 Batch No  4  Avg Loss (till now)  0.15524375811219215  Avg Score (till now)  0.96625  ( Time taken  2.3016682863235474 secs per batch )
+Epoch  4 Batch No  5  Avg Loss (till now)  0.14492018818855285  Avg Score (till now)  0.968  ( Time taken  2.301768159866333 secs per batch )
+Epoch  4 Batch No  6  Avg Loss (till now)  0.13748625541726747  Avg Score (till now)  0.9691666666666666  ( Time taken  2.3027335007985434 secs per batch )
+Epoch  4 Batch No  7  Avg Loss (till now)  0.1460206796016012  Avg Score (till now)  0.9671428571428571  ( Time taken  2.3015499114990234 secs per batch )
+Epoch  4 Batch No  8  Avg Loss (till now)  0.13966195937246084  Avg Score (till now)  0.9681249999999999  ( Time taken  2.30043762922287 secs per batch )
+Epoch  4 Batch No  9  Avg Loss (till now)  0.15064175344175762  Avg Score (till now)  0.9677777777777776  ( Time taken  2.3005875481499567 secs per batch )
+Epoch  4 Batch No  10  Avg Loss (till now)  0.15259516164660453  Avg Score (till now)  0.9669999999999999  ( Time taken  2.3002894639968874 secs per batch )
+Epoch  4 Batch No  11  Avg Loss (till now)  0.16487522761930118  Avg Score (till now)  0.9577272727272725  ( Time taken  2.300141941417347 secs per batch )
+Epoch  4 Batch No  12  Avg Loss (till now)  0.16630295601983866  Avg Score (till now)  0.9566666666666666  ( Time taken  2.300517280896505 secs per batch )
+Epoch  4 Batch No  13  Avg Loss (till now)  0.16486548403134713  Avg Score (till now)  0.9569230769230768  ( Time taken  2.300253849763137 secs per batch )
+Epoch  4 Batch No  14  Avg Loss (till now)  0.16586465016007423  Avg Score (till now)  0.9574999999999998  ( Time taken  2.3003050088882446 secs per batch )
+Epoch  4 Batch No  15  Avg Loss (till now)  0.17224189788103103  Avg Score (till now)  0.9576666666666666  ( Time taken  2.3002837816874186 secs per batch )
+Epoch  4 Batch No  16  Avg Loss (till now)  0.16496517485938966  Avg Score (till now)  0.9595728550295857  ( Time taken  2.278108686208725 secs per batch )
+Epoch   4  Loss  0.16496517485938966  Score  0.9595728550295857
+Epoch  5 Batch No  1  Avg Loss (till now)  0.17313618957996368  Avg Score (till now)  0.965  ( Time taken  2.3086512088775635 secs per batch )
+Epoch  5 Batch No  2  Avg Loss (till now)  0.12975509464740753  Avg Score (till now)  0.9724999999999999  ( Time taken  2.3058680295944214 secs per batch )
+Epoch  5 Batch No  3  Avg Loss (till now)  0.14367124934991202  Avg Score (till now)  0.9683333333333333  ( Time taken  2.3015692234039307 secs per batch )
+Epoch  5 Batch No  4  Avg Loss (till now)  0.1557227559387684  Avg Score (till now)  0.965  ( Time taken  2.3018179535865784 secs per batch )
+Epoch  5 Batch No  5  Avg Loss (till now)  0.15416253507137298  Avg Score (till now)  0.967  ( Time taken  2.301148700714111 secs per batch )
+Epoch  5 Batch No  6  Avg Loss (till now)  0.14973106235265732  Avg Score (till now)  0.9700000000000001  ( Time taken  2.3020326693852744 secs per batch )
+Epoch  5 Batch No  7  Avg Loss (till now)  0.15001583312238967  Avg Score (till now)  0.9692857142857143  ( Time taken  2.302246706826346 secs per batch )
+Epoch  5 Batch No  8  Avg Loss (till now)  0.1518175695091486  Avg Score (till now)  0.96875  ( Time taken  2.3019002079963684 secs per batch )
+Epoch  5 Batch No  9  Avg Loss (till now)  0.14931192331843907  Avg Score (till now)  0.9694444444444444  ( Time taken  2.302287366655138 secs per batch )
+Epoch  5 Batch No  10  Avg Loss (till now)  0.145742479711771  Avg Score (till now)  0.97  ( Time taken  2.3016539812088013 secs per batch )
+Epoch  5 Batch No  11  Avg Loss (till now)  0.14745815436948428  Avg Score (till now)  0.9695454545454545  ( Time taken  2.301261793483387 secs per batch )
+Epoch  5 Batch No  12  Avg Loss (till now)  0.1455074306577444  Avg Score (till now)  0.9695833333333334  ( Time taken  2.2956896821657815 secs per batch )
+Epoch  5 Batch No  13  Avg Loss (till now)  0.14844019080583865  Avg Score (till now)  0.966923076923077  ( Time taken  2.2949313750633826 secs per batch )
+Epoch  5 Batch No  14  Avg Loss (till now)  0.14659859665802547  Avg Score (till now)  0.9675  ( Time taken  2.295130729675293 secs per batch )
+Epoch  5 Batch No  15  Avg Loss (till now)  0.14680425226688384  Avg Score (till now)  0.967  ( Time taken  2.294704023996989 secs per batch )
+Epoch  5 Batch No  16  Avg Loss (till now)  0.14149245666339993  Avg Score (till now)  0.9679530325443786  ( Time taken  2.273148626089096 secs per batch )
+Epoch   5  Loss  0.14149245666339993  Score  0.9679530325443786
+Epoch  6 Batch No  1  Avg Loss (till now)  0.11475066095590591  Avg Score (till now)  0.965  ( Time taken  2.2858572006225586 secs per batch )
+Epoch  6 Batch No  2  Avg Loss (till now)  0.09323759377002716  Avg Score (till now)  0.9675  ( Time taken  2.287190318107605 secs per batch )
+Epoch  6 Batch No  3  Avg Loss (till now)  0.12829400599002838  Avg Score (till now)  0.9633333333333334  ( Time taken  2.2884469827016196 secs per batch )
+Epoch  6 Batch No  4  Avg Loss (till now)  0.14186086878180504  Avg Score (till now)  0.9625  ( Time taken  2.2886032462120056 secs per batch )
+Epoch  6 Batch No  5  Avg Loss (till now)  0.14829429388046264  Avg Score (till now)  0.9470000000000001  ( Time taken  2.2892432689666746 secs per batch )
+Epoch  6 Batch No  6  Avg Loss (till now)  0.15090271830558777  Avg Score (till now)  0.9391666666666668  ( Time taken  2.2893882592519126 secs per batch )
+Epoch  6 Batch No  7  Avg Loss (till now)  0.16195421985217504  Avg Score (till now)  0.9314285714285715  ( Time taken  2.2903031281062534 secs per batch )
+Epoch  6 Batch No  8  Avg Loss (till now)  0.16312983632087708  Avg Score (till now)  0.925  ( Time taken  2.2910859286785126 secs per batch )
+Epoch  6 Batch No  9  Avg Loss (till now)  0.1658823870950275  Avg Score (till now)  0.9172222222222223  ( Time taken  2.2917834652794733 secs per batch )
+Epoch  6 Batch No  10  Avg Loss (till now)  0.16753458529710769  Avg Score (till now)  0.9135000000000002  ( Time taken  2.291636419296265 secs per batch )
+Epoch  6 Batch No  11  Avg Loss (till now)  0.17178917608477853  Avg Score (till now)  0.9059090909090911  ( Time taken  2.29081299088218 secs per batch )
+Epoch  6 Batch No  12  Avg Loss (till now)  0.17473979915181795  Avg Score (till now)  0.9033333333333334  ( Time taken  2.289642055829366 secs per batch )
+Epoch  6 Batch No  13  Avg Loss (till now)  0.16958295152737543  Avg Score (till now)  0.9034615384615385  ( Time taken  2.289512322499202 secs per batch )
+Epoch  6 Batch No  14  Avg Loss (till now)  0.16848922840186528  Avg Score (till now)  0.9032142857142859  ( Time taken  2.289485437529428 secs per batch )
+Epoch  6 Batch No  15  Avg Loss (till now)  0.16685830056667328  Avg Score (till now)  0.9030000000000001  ( Time taken  2.2890464464823403 secs per batch )
+Epoch  6 Batch No  16  Avg Loss (till now)  0.1672110566869378  Avg Score (till now)  0.9024056952662723  ( Time taken  2.2667373418807983 secs per batch )
+Epoch   6  Loss  0.1672110566869378  Score  0.9024056952662723
+Epoch  7 Batch No  1  Avg Loss (till now)  0.14162231981754303  Avg Score (till now)  0.965  ( Time taken  2.2752411365509033 secs per batch )
+Epoch  7 Batch No  2  Avg Loss (till now)  0.19783756881952286  Avg Score (till now)  0.96  ( Time taken  2.277978301048279 secs per batch )
+Epoch  7 Batch No  3  Avg Loss (till now)  0.15572251131137213  Avg Score (till now)  0.9683333333333333  ( Time taken  2.2789469559987388 secs per batch )
+Epoch  7 Batch No  4  Avg Loss (till now)  0.1477869562804699  Avg Score (till now)  0.96875  ( Time taken  2.2812949419021606 secs per batch )
+Epoch  7 Batch No  5  Avg Loss (till now)  0.14054057002067566  Avg Score (till now)  0.968  ( Time taken  2.282882642745972 secs per batch )
+Epoch  7 Batch No  6  Avg Loss (till now)  0.1384358083208402  Avg Score (till now)  0.9691666666666666  ( Time taken  2.283112088839213 secs per batch )
+Epoch  7 Batch No  7  Avg Loss (till now)  0.12904301924364908  Avg Score (till now)  0.9699999999999999  ( Time taken  2.2834977763039723 secs per batch )
+Epoch  7 Batch No  8  Avg Loss (till now)  0.1356243584305048  Avg Score (till now)  0.9687499999999999  ( Time taken  2.282750964164734 secs per batch )
+Epoch  7 Batch No  9  Avg Loss (till now)  0.13716774185498556  Avg Score (till now)  0.9699999999999999  ( Time taken  2.2824851936764188 secs per batch )
+Epoch  7 Batch No  10  Avg Loss (till now)  0.14305523037910461  Avg Score (till now)  0.9679999999999997  ( Time taken  2.282651448249817 secs per batch )
+Epoch  7 Batch No  11  Avg Loss (till now)  0.1431357738646594  Avg Score (till now)  0.9686363636363634  ( Time taken  2.2825509201396597 secs per batch )
+Epoch  7 Batch No  12  Avg Loss (till now)  0.14494237179557481  Avg Score (till now)  0.9674999999999998  ( Time taken  2.282133936882019 secs per batch )
+Epoch  7 Batch No  13  Avg Loss (till now)  0.14238904875058395  Avg Score (till now)  0.9680769230769228  ( Time taken  2.281812832905696 secs per batch )
+Epoch  7 Batch No  14  Avg Loss (till now)  0.14165064373186656  Avg Score (till now)  0.9685714285714283  ( Time taken  2.281538895198277 secs per batch )
+Epoch  7 Batch No  15  Avg Loss (till now)  0.14723567565282186  Avg Score (till now)  0.9679999999999997  ( Time taken  2.2812177658081056 secs per batch )
+Epoch  7 Batch No  16  Avg Loss (till now)  0.15348619781434536  Avg Score (till now)  0.96741124260355  ( Time taken  2.259272351861 secs per batch )
+Epoch   7  Loss  0.15348619781434536  Score  0.96741124260355
+Epoch  8 Batch No  1  Avg Loss (till now)  0.20626626908779144  Avg Score (till now)  0.96  ( Time taken  2.2803924083709717 secs per batch )
+Epoch  8 Batch No  2  Avg Loss (till now)  0.1738099828362465  Avg Score (till now)  0.9675  ( Time taken  2.2788031101226807 secs per batch )
+Epoch  8 Batch No  3  Avg Loss (till now)  0.1721793015797933  Avg Score (till now)  0.9700000000000001  ( Time taken  2.2784789403279624 secs per batch )
+Epoch  8 Batch No  4  Avg Loss (till now)  0.15643900632858276  Avg Score (till now)  0.9750000000000001  ( Time taken  2.277621269226074 secs per batch )
+Epoch  8 Batch No  5  Avg Loss (till now)  0.16088471114635466  Avg Score (till now)  0.9690000000000001  ( Time taken  2.278528356552124 secs per batch )
+Epoch  8 Batch No  6  Avg Loss (till now)  0.16286474217971167  Avg Score (till now)  0.9675000000000001  ( Time taken  2.278858741124471 secs per batch )
+Epoch  8 Batch No  7  Avg Loss (till now)  0.15779072684901102  Avg Score (till now)  0.9678571428571429  ( Time taken  2.2779766832079207 secs per batch )
+Epoch  8 Batch No  8  Avg Loss (till now)  0.16088850796222687  Avg Score (till now)  0.9656250000000001  ( Time taken  2.277776449918747 secs per batch )
+Epoch  8 Batch No  9  Avg Loss (till now)  0.16268064081668854  Avg Score (till now)  0.9644444444444444  ( Time taken  2.2771385245853 secs per batch )
+Epoch  8 Batch No  10  Avg Loss (till now)  0.15970637202262877  Avg Score (till now)  0.9654999999999999  ( Time taken  2.2772547006607056 secs per batch )
+Epoch  8 Batch No  11  Avg Loss (till now)  0.1553032797845927  Avg Score (till now)  0.9663636363636363  ( Time taken  2.277402812784368 secs per batch )
+Epoch  8 Batch No  12  Avg Loss (till now)  0.14919204451143742  Avg Score (till now)  0.9666666666666667  ( Time taken  2.276108900705973 secs per batch )
+Epoch  8 Batch No  13  Avg Loss (till now)  0.14370545057150033  Avg Score (till now)  0.9680769230769231  ( Time taken  2.27642246393057 secs per batch )
+Epoch  8 Batch No  14  Avg Loss (till now)  0.15133428573608398  Avg Score (till now)  0.9678571428571427  ( Time taken  2.276294537952968 secs per batch )
+Epoch  8 Batch No  15  Avg Loss (till now)  0.15247734586397807  Avg Score (till now)  0.968  ( Time taken  2.2771769682566325 secs per batch )
+Epoch  8 Batch No  16  Avg Loss (till now)  0.15611844137310982  Avg Score (till now)  0.9677810650887574  ( Time taken  2.2559299767017365 secs per batch )
+Epoch   8  Loss  0.15611844137310982  Score  0.9677810650887574
+Epoch  9 Batch No  1  Avg Loss (till now)  0.2139311581850052  Avg Score (till now)  0.87  ( Time taken  2.2759225368499756 secs per batch )
+Epoch  9 Batch No  2  Avg Loss (till now)  0.20908137410879135  Avg Score (till now)  0.89  ( Time taken  2.2783466577529907 secs per batch )
+Epoch  9 Batch No  3  Avg Loss (till now)  0.20848020414511362  Avg Score (till now)  0.8783333333333333  ( Time taken  2.2774523893992105 secs per batch )
+Epoch  9 Batch No  4  Avg Loss (till now)  0.2010377123951912  Avg Score (till now)  0.8737499999999999  ( Time taken  2.2785114645957947 secs per batch )
+Epoch  9 Batch No  5  Avg Loss (till now)  0.19414953589439393  Avg Score (till now)  0.8789999999999999  ( Time taken  2.2772833347320556 secs per batch )
+Epoch  9 Batch No  6  Avg Loss (till now)  0.18459472556908926  Avg Score (till now)  0.8791666666666665  ( Time taken  2.278715213139852 secs per batch )
+Epoch  9 Batch No  7  Avg Loss (till now)  0.20869407057762146  Avg Score (till now)  0.8728571428571428  ( Time taken  2.2785098552703857 secs per batch )
+Epoch  9 Batch No  8  Avg Loss (till now)  0.20104140602052212  Avg Score (till now)  0.8775  ( Time taken  2.2787713706493378 secs per batch )
+Epoch  9 Batch No  9  Avg Loss (till now)  0.1944516251484553  Avg Score (till now)  0.8822222222222221  ( Time taken  2.278628296322293 secs per batch )
+Epoch  9 Batch No  10  Avg Loss (till now)  0.1937583342194557  Avg Score (till now)  0.8825  ( Time taken  2.278189444541931 secs per batch )
+Epoch  9 Batch No  11  Avg Loss (till now)  0.19044807824221524  Avg Score (till now)  0.8818181818181817  ( Time taken  2.2772779681465845 secs per batch )
+Epoch  9 Batch No  12  Avg Loss (till now)  0.19220254446069399  Avg Score (till now)  0.8825  ( Time taken  2.277614931265513 secs per batch )
+Epoch  9 Batch No  13  Avg Loss (till now)  0.1878349930047989  Avg Score (till now)  0.8857692307692309  ( Time taken  2.277326070345365 secs per batch )
+Epoch  9 Batch No  14  Avg Loss (till now)  0.18649547121354512  Avg Score (till now)  0.8860714285714286  ( Time taken  2.276910628591265 secs per batch )
+Epoch  9 Batch No  15  Avg Loss (till now)  0.18544833362102509  Avg Score (till now)  0.886  ( Time taken  2.2761390527089436 secs per batch )
+Epoch  9 Batch No  16  Avg Loss (till now)  0.18809527345001698  Avg Score (till now)  0.8857285502958581  ( Time taken  2.2540897727012634 secs per batch )
+Epoch   9  Loss  0.18809527345001698  Score  0.8857285502958581
+Starting cluster ( 75 ):   ['warning', 'sign', 'stop_sign', 'street_sign', 'for_sale', 'alert', 'stop']
+<class 'datasets.visual_genome_attribute_object.VisualGenomeAttributeCatalog'>
+number of classes  1
+Number of classes ==  1, hence skipping this cluster
+Starting cluster ( 76 ):   ['covering', 'covered', 'hidden', 'gloved', 'hooded', 'wrapped']
+<class 'datasets.visual_genome_attribute_object.VisualGenomeAttributeCatalog'>
+number of classes  1
+Number of classes ==  1, hence skipping this cluster
+Starting cluster ( 77 ):   ['bottom', 'hind', 'tail']
+<class 'datasets.visual_genome_attribute_object.VisualGenomeAttributeCatalog'>
+number of classes  2
+initialized _Net model
+loading checkpoint from %s checkpoints/8/77
+Model initialized... Not loaded
+transferred model to gpu
+save dir  /dccstor/cssblr/amrita/Concept_Catalog_VQA/multiclass_unilabel_cce_level2_attribute/checkpoints/8/77
+Starting ...
+Starting Training ...
+Epoch  0 Batch No  1  Avg Loss (till now)  0.6931272149085999  Avg Score (till now)  0.49  ( Time taken  2.5385591983795166 secs per batch )
+Epoch  0 Batch No  2  Avg Loss (till now)  7.364946633577347  Avg Score (till now)  0.5974999999999999  ( Time taken  2.4187041521072388 secs per batch )
+Epoch  0 Batch No  3  Avg Loss (till now)  5.113103111584981  Avg Score (till now)  0.6433333333333332  ( Time taken  2.3793376286824546 secs per batch )
+Epoch  0 Batch No  4  Avg Loss (till now)  4.759095519781113  Avg Score (till now)  0.6678448275862068  ( Time taken  3.666129946708679 secs per batch )
+Epoch   0  Loss  4.759095519781113  Score  0.6678448275862068
+Epoch  1 Batch No  1  Avg Loss (till now)  1.4164459705352783  Avg Score (till now)  0.735  ( Time taken  2.2898268699645996 secs per batch )
+Epoch  1 Batch No  2  Avg Loss (till now)  0.9856442809104919  Avg Score (till now)  0.745  ( Time taken  2.284911632537842 secs per batch )
+Epoch  1 Batch No  3  Avg Loss (till now)  0.8809159398078918  Avg Score (till now)  0.7316666666666666  ( Time taken  2.283435662587484 secs per batch )
+Epoch  1 Batch No  4  Avg Loss (till now)  0.8076032400131226  Avg Score (till now)  0.7319396551724138  ( Time taken  2.0494362711906433 secs per batch )
+Epoch   1  Loss  0.8076032400131226  Score  0.7319396551724138
+Epoch  2 Batch No  1  Avg Loss (till now)  0.5851130485534668  Avg Score (till now)  0.74  ( Time taken  2.2772514820098877 secs per batch )
+Epoch  2 Batch No  2  Avg Loss (till now)  0.6065981686115265  Avg Score (till now)  0.7275  ( Time taken  2.2754292488098145 secs per batch )
+Epoch  2 Batch No  3  Avg Loss (till now)  0.6089851458867391  Avg Score (till now)  0.7216666666666667  ( Time taken  2.2727483113606772 secs per batch )
+Epoch  2 Batch No  4  Avg Loss (till now)  0.6008139699697495  Avg Score (till now)  0.7373706896551724  ( Time taken  2.041744112968445 secs per batch )
+Epoch   2  Loss  0.6008139699697495  Score  0.7373706896551724
+Epoch  3 Batch No  1  Avg Loss (till now)  0.5941357016563416  Avg Score (till now)  0.73  ( Time taken  2.274841547012329 secs per batch )
+Epoch  3 Batch No  2  Avg Loss (till now)  0.575491726398468  Avg Score (till now)  0.7375  ( Time taken  2.2739875316619873 secs per batch )
+Epoch  3 Batch No  3  Avg Loss (till now)  0.5696513851483663  Avg Score (till now)  0.735  ( Time taken  2.2715624968210855 secs per batch )
+Epoch  3 Batch No  4  Avg Loss (till now)  0.5923559069633484  Avg Score (till now)  0.7301293103448276  ( Time taken  2.039156496524811 secs per batch )
+Epoch   3  Loss  0.5923559069633484  Score  0.7301293103448276
+Epoch  4 Batch No  1  Avg Loss (till now)  0.5494111776351929  Avg Score (till now)  0.745  ( Time taken  2.2617926597595215 secs per batch )
+Epoch  4 Batch No  2  Avg Loss (till now)  0.5685839951038361  Avg Score (till now)  0.7275  ( Time taken  2.2638680934906006 secs per batch )
+Epoch  4 Batch No  3  Avg Loss (till now)  0.5721426606178284  Avg Score (till now)  0.7383333333333333  ( Time taken  2.264497915903727 secs per batch )
+Epoch  4 Batch No  4  Avg Loss (till now)  0.5754996240139008  Avg Score (till now)  0.7369396551724138  ( Time taken  2.033178985118866 secs per batch )
+Epoch   4  Loss  0.5754996240139008  Score  0.7369396551724138
+Epoch  5 Batch No  1  Avg Loss (till now)  0.5576873421669006  Avg Score (till now)  0.725  ( Time taken  2.279588222503662 secs per batch )
+Epoch  5 Batch No  2  Avg Loss (till now)  0.5381307601928711  Avg Score (till now)  0.7475  ( Time taken  2.2729732990264893 secs per batch )
+Epoch  5 Batch No  3  Avg Loss (till now)  0.5476574897766113  Avg Score (till now)  0.7383333333333333  ( Time taken  2.2720163663228354 secs per batch )
+Epoch  5 Batch No  4  Avg Loss (till now)  0.5498071312904358  Avg Score (till now)  0.74125  ( Time taken  2.0401137471199036 secs per batch )
+Epoch   5  Loss  0.5498071312904358  Score  0.74125
+Epoch  6 Batch No  1  Avg Loss (till now)  0.45872172713279724  Avg Score (till now)  0.78  ( Time taken  2.268599033355713 secs per batch )
+Epoch  6 Batch No  2  Avg Loss (till now)  0.4663310945034027  Avg Score (till now)  0.7725  ( Time taken  2.271025061607361 secs per batch )
+Epoch  6 Batch No  3  Avg Loss (till now)  0.4779670238494873  Avg Score (till now)  0.7483333333333334  ( Time taken  2.270950714747111 secs per batch )
+Epoch  6 Batch No  4  Avg Loss (till now)  0.48882539570331573  Avg Score (till now)  0.7422844827586207  ( Time taken  2.038987398147583 secs per batch )
+Epoch   6  Loss  0.48882539570331573  Score  0.7422844827586207
+Epoch  7 Batch No  1  Avg Loss (till now)  0.4970816373825073  Avg Score (till now)  0.795  ( Time taken  2.2827484607696533 secs per batch )
+Epoch  7 Batch No  2  Avg Loss (till now)  0.5016660392284393  Avg Score (till now)  0.8175  ( Time taken  2.276363730430603 secs per batch )
+Epoch  7 Batch No  3  Avg Loss (till now)  0.49350971976915997  Avg Score (till now)  0.8116666666666666  ( Time taken  2.2755927244822183 secs per batch )
+Epoch  7 Batch No  4  Avg Loss (till now)  0.5016191378235817  Avg Score (till now)  0.7919396551724138  ( Time taken  2.0430429577827454 secs per batch )
+Epoch   7  Loss  0.5016191378235817  Score  0.7919396551724138
+Epoch  8 Batch No  1  Avg Loss (till now)  0.593198835849762  Avg Score (till now)  0.71  ( Time taken  2.2703306674957275 secs per batch )
+Epoch  8 Batch No  2  Avg Loss (till now)  0.5167038291692734  Avg Score (till now)  0.745  ( Time taken  2.270310878753662 secs per batch )
+Epoch  8 Batch No  3  Avg Loss (till now)  0.5082226097583771  Avg Score (till now)  0.7316666666666666  ( Time taken  2.266413847605387 secs per batch )
+Epoch  8 Batch No  4  Avg Loss (till now)  0.5111821666359901  Avg Score (till now)  0.7319396551724138  ( Time taken  2.0357375741004944 secs per batch )
+Epoch   8  Loss  0.5111821666359901  Score  0.7319396551724138
+Epoch  9 Batch No  1  Avg Loss (till now)  0.4883013963699341  Avg Score (till now)  0.705  ( Time taken  2.2745776176452637 secs per batch )
+Epoch  9 Batch No  2  Avg Loss (till now)  0.47464442253112793  Avg Score (till now)  0.725  ( Time taken  2.27409291267395 secs per batch )
+Epoch  9 Batch No  3  Avg Loss (till now)  0.48273421327273053  Avg Score (till now)  0.7283333333333334  ( Time taken  2.274310747782389 secs per batch )
+Epoch  9 Batch No  4  Avg Loss (till now)  0.4785367473959923  Avg Score (till now)  0.7445258620689655  ( Time taken  2.0422064661979675 secs per batch )
+Epoch   9  Loss  0.4785367473959923  Score  0.7445258620689655
+Starting cluster ( 78 ):   ['plush', 'fluffy', 'padded', 'feathered', 'wooly', 'shaggy', 'puffy', 'furry']
+<class 'datasets.visual_genome_attribute_object.VisualGenomeAttributeCatalog'>
+number of classes  1
+Number of classes ==  1, hence skipping this cluster
+Starting cluster ( 79 ):   ['sloped', 'sliding', 'slanted', 'tilted', 'steep', 'sheer']
+<class 'datasets.visual_genome_attribute_object.VisualGenomeAttributeCatalog'>
+number of classes  1
+Number of classes ==  1, hence skipping this cluster

@@ -1,0 +1,92 @@
+'thin', 'thick', 'slender', 'slim', 'skinny', 'muscular', 'curvy', 'loose', 'floppy'	  0.7443277893277894
+'flat_screen', 'flat', 'smooth', 'calm', 'rippled', 'ridged', 'rippling', 'wrinkled', 'wrinkly', 'crumpled', 'folded', 'folding', 'ruffled', 'uneven', 'choppy', 'rough'	  0.6712351778656127
+'landing', 'flying', 'air', 'taking_off', 'plane', 'jet', 'airborne'	Number of classes ==  1, hence skipping this cluster
+'yellow', 'amber', 'bright_yellow', 'yellowish', 'chalk', 'white', 'whtie', 'ivory', 'bright', 'white_colored', 'salt', 'pale', 'is_white', 'white.', 'bright_white', 'vanilla', 'used', 'faded', 'gray', 'light_gray', 'light_grey', 'dark_gray', 'dark_grey', 'grey', 'black', 'dark', 'wearing_black', 'dark_colored', 'is_black', 'colored', 'tinted', 'transparent', 'color', 'matching', 'stained', 'colorful', 'brightly_colored', 'multi_colored', 'multicolored', 'rainbow', 'rainbow_colored', 'multi-colored', 'background', 'in_the_background', 'in_background', 'peach', 'pink', 'beige', 'light_skinned', 'light-skinned', 'off_white', 'light_colored', 'light-colored', 'cream_colored', 'off-white', 'light_pink', 'lavender', 'blue', 'sky', 'is_blue', 'purple', 'deep_blue', 'pale_blue', 'clear_blue', 'navy_blue', 'navy', 'light_blue', 'dark_blue', 'bright_blue', 'turquoise', 'teal', 'green', 'neon_green', 'light_green', 'greenish', 'bright_green', 'lime_green', 'dark_green', 'is_green', 'silver', 'golden', 'gold', 'ornate', 'decorative', 'bronze', 'shiny', 'copper', 'golden_brown', 'metallic', 'metalic', 'metal', 'aluminum', 'stainless_steel', 'steel', 'stainless', 'chrome', 'tin', 'brown', 'burgundy', 'maroon', 'tan', 'is_brown', 'dark_brown', 'browned', 'brownish', 'dark_red', 'red_brick', 'light_brown', 'burned', 'burnt', 'damaged', 'orange', 'red', 'reddish', 'is_red', 'bright_red', 'bright_orange'	  0.4422930015011161
+'messy', 'cluttered', 'disposable', 'dirty', 'garbage', 'trash', 'dirt', 'clean', 'neat', 'decorated', 'manicured', 'decoration', 'nice', 'lovely', 'pretty', 'designed'	  0.5665196917808217
+'wet', 'shower', 'dry'	  0.7381197326358616
+'pile', 'piled', 'stack', 'stacked', 'grouped', 'group', 'scattered', 'gathered', 'arranged', 'packed', 'tied', 'present'	  0.6647737650477377
+'sliced', 'peeled', 'peeling', 'parted', 'halved', 'slices', 'slice', 'diced', 'chopped'	  1.0
+'electronic', 'power', 'turned_on', 'wireless', 'digital', 'signal', 'wii', 'wired', 'laptop', 'computer', 'portable', 'telephone', 'cell'	  0.5568945868945868
+'hanging', 'suspended', 'clock', 'office', 'ceiling', 'kitchen', 'bathroom', 'toilet', 'dining', 'utility', 'corner', 'door', 'window', 'windshield', 'wall', 'table'	  0.6260465116279071
+'floor', 'carpeted', 'concrete', 'tiled', 'tile', 'bricks', 'clay', 'stone', 'ceramic', 'marble', 'porcelain', 'asphalt', 'brick', 'cement', 'granite', 'cardboard', 'bricked', 'bamboo', 'paper', 'letter'	  0.5674123076923078
+'iron', 'brass', 'wrought_iron'	  1.0
+'painted', 'canvas'	  1.0
+'cloudless', 'sunlit', 'shadowed', 'unlit', 'darker'	  0.8577710843373494
+'sitting', 'seated', 'sitting_down', 'hanging_down'	Number of classes ==  1, hence skipping this cluster
+'wine', 'soda', 'beer'	Number of classes ==  1, hence skipping this cluster
+'ripe', 'sweet', 'fresh', 'unripe'	  0.9205555555555556
+'cream', 'creamy', 'coffee', 'cherry', 'tomato', 'pepper', 'banana', 'apple', 'chocolate', 'cake'	  0.5519553376906319
+'picture', 'pictured', 'framed', 'in_the_picture', 'in_picture'	Number of classes ==  1, hence skipping this cluster
+'happy', 'beautiful', 'smiling', 'fancy', 'laughing', 'cute', 'sad'	  0.9808275550195958
+'wedding', 'christmas', 'birthday'	Number of classes ==  1, hence skipping this cluster
+'baby', 'teddy', 'teddy_bear', 'toy', 'stuffed'	Number of classes ==  1, hence skipping this cluster
+'soft', 'hard', 'protective'	  0.42540229885057473
+'styrofoam', 'foamy', 'plastic', 'rubber'	  0.9233333333333331
+'brown_and_white', 'black_and_white', 'white_and_black', 'green_and_white', 'white_and_blue', 'blue_and_white', 'yellow_and_black', 'red_and_black', 'orange_and_white', 'red_white', 'red_and_white'	  0.5116304347826087
+'african', 'american', 'caucasian', 'french', 'asian', 'chinese'	  0.5404545454545455
+'roman', 'roman_numeral', 'number', 'five', 'three', 'two', 'four', 'six', 'word', '2', '3'	  0.9341176470588234
+'driving', 'passenger', 'cargo', 'car', 'parking', 'parked', 'license', 'safety'	  0.7762865146058424
+'in_air', 'in_the_air', 'mid_air'	Number of classes ==  1, hence skipping this cluster
+'electric', 'fire', 'gas', 'electrical'	Number of classes ==  1, hence skipping this cluster
+'giraffe', "giraffe's", 'horse', "horse's", 'elephant', "elephant's", 'zebra', "zebra's", 'animal', 'wild', 'bird', 'bear', "bear's", 'polar'	  0.36033333333333334
+'frozen', 'iced', 'frosted', 'raw', 'uncooked', 'dried', 'healthy', 'food', 'feeding', 'eaten', 'eating', 'half_eaten', 'cooked', 'cooking', 'steamed', 'roasted', 'grilled', 'fat', 'seasoned'	  0.618919191919192
+'bike', 'bicycle', 'motorcycle'	Number of classes ==  1, hence skipping this cluster
+'dog', 'cat', 'tabby', "cat's", "dog's"	Number of classes ==  1, hence skipping this cluster
+'straw', 'lace', 'logo', 'stripe', 'stripped', 'stripes', 'striped', 'plaid', 'checkered', 'checked', 'leather', 'camo', 'camouflage', 'khaki', 'military', 'print', 'printed'	  0.458150701899257
+'wearing', 'worn'	Number of classes ==  1, hence skipping this cluster
+'fabric', 'cloth', 'wool', 'fur', 'cotton', 'knit', 'vintage', 'mesh', 'barbed', 'fence', 'knitted', 'woven', 'layered', 'textured', 'patterned', 'patch', 'patchy'	  0.5018181818181818
+'jeans', 'jean', 'denim', 'dress', 'dressed', 'shirt', 'button_down', 'shirtless', 'long_sleeved', 'long_sleeve', 'long-sleeved', 'short_sleeve', 'short_sleeved', 'short-sleeved', 'sleeveless'	  0.3025474898236093
+'beaded', 'shining', 'illuminated', 'lit', 'light', 'lighted', 'fluorescent', 'lamp', 'lit_up', 'neon', 'glowing', 'polished', 'reflection', 'reflected', 'reflective', 'reflecting', 'glassy', 'glass', 'glazed', 'crystal'	  0.5611052631578946
+'blowing'	Number of classes ==  1, hence skipping this cluster
+'floating', 'upper', 'vertical', 'horizontal', 'upright'	Number of classes ==  1, hence skipping this cluster
+'hardwood', 'paneled', 'wooden', 'wicker', 'antique', 'wood', 'made_of_wood', 'sandy', 'sand', 'dull', 'powdered', 'wispy', 'rusted', 'dusty', 'rusty'	  0.8755180650940579
+'shaved', 'balding', 'bald', 'weathered', 'old_fashioned', 'elderly', 'older', 'old', 'brunette', 'blond', 'blonde', 'wavy', 'braided', 'curly'	  0.6810294117647059
+'hairy', 'hair', 'face', 'head', 'brow', 'collared', 'body'	  0.6876543209876542
+'soap'	Number of classes ==  1, hence skipping this cluster
+'dead', 'dying', 'young', 'modern', 'foreign', 'new'	  0.8209118381290237
+'mother', "woman's", 'female', 'woman', 'adult', "person's", 'person', 'human', 'people', 'man', "man's", 'mans', 'male', 'boy', "boy's", "girl's", "child's"	  0.38268078889700513
+'cheese', 'cheesy', 'melted', 'bread', 'toasted', 'wheat', 'vegetable', 'fruit'	  0.5655643274853801
+'snowboarding', 'skateboard', 'skateboarding', 'skating', 'skiing', 'ski'	  0.852089947089947
+'snow-covered', 'snow_covered', 'snow', 'winter', 'cold', 'snowy', 'overcast', 'partly_cloudy', 'cloudy', 'stormy', 'foggy', 'night', 'daytime'	  0.7468239402306316
+'sunny', 'warm'	Number of classes ==  1, hence skipping this cluster
+'floral', 'flower', 'flowered'	Number of classes ==  1, hence skipping this cluster
+'herd', 'jumping', 'grazing', 'barefoot', 'racing', 'fenced', 'riding'	Number of classes ==  1, hence skipping this cluster
+'jagged', 'bent', 'twisted', 'bent_over', 'bending_over', 'bending', 'standing_up', 'standing', 'lined_up', 'statue', 'support', 'leaning', 'lined', 'line', 'straight', 'parallel', 'still', 'waiting', 'curved', 'crooked', 'angled', 'curled', 'rolled_up', 'arched', 'turning', 'turned', 'rolling', 'rolled', 'roll'	  0.6893660526818097
+'hot', 'tropical', 'beach', 'ocean', 'water', 'aqua', 'flowing', 'outdoor', 'outdoors', 'inside', 'indoors'	  0.4902716535433071
+'drinking', 'relaxing', 'swimming', 'surfing', 'surfer', 'deep', 'shallow'	  0.6062071197411004
+'muddy', 'murky', 'clear', 'barren', 'bare', 'rocky', 'gravel', 'rock'	  0.6788445179584118
+'pizza', 'delicious', 'pepperoni', 'tasty', 'homemade', 'fried', 'crispy', 'baked', 'assorted', 'juicy'	Number of classes ==  1, hence skipping this cluster
+'tree', 'grassy', 'evergreen', 'bushy', 'pine', 'grass', 'mowed', 'palm', 'lush', 'wooded', 'shaded', 'overgrown', 'leafy', 'leafless', 'blooming', 'potted'	Number of classes ==  1, hence skipping this cluster
+'athletic', 'playing', "player's", 'nike', 'polo', 'adidas', 'tennis', 'tennis_player', 'for_tennis', 'playing_tennis', 'batting', 'tee', 'baseball', 'playing_baseball', 'for_baseball', 'baseball_player', 'soccer'	  0.6238338192419828
+'street', 'paved', 'city', 'railroad', 'tarmacked', 'cobblestone', 'traffic', 'road', 'area', 'one_way', 'crossed', 'crossing', 'pedestrian', 'building', 'two_story', 'home', "building's", 'plain', 'field', 'park', 'public', 'crowded', 'busy', 'traveling', 'train', "train's", 'police', 'bus', 'double_decker', 'double-decker'	  0.570548772968307
+'marked', 'speckled', 'spotted', 'dotted', 'polka_dot', 'directional', 'pointing', 'carved'	  0.6813341543513957
+'little', 'tiny', 'miniature', 'mini', 'short', 'small', 'smaller', 'compact', 'big', 'giant', 'massive', 'huge', 'large', 'larger', 'largest', 'very_large', 'medium_sized', 'medium', 'tall', 'tallest', 'taller', 'very_tall', 'high'	  0.44258270932607185
+'long', 'growing', 'extended', 'outstretched', 'wide', 'stretched', 'tight', 'narrow', 'reaching', 'coming'	  0.9294633764198978
+'rear_view', 'rear', 'behind', 'in_back', 'back', 'backwards', 'on_the_right', 'on_right', 'on_left', 'on_the_left', 'side_view', 'side', 'on_side', 'sideways', 'in_front', 'in_foreground', 'center'	  0.6254418460264902
+'circle', 'circular', 'cylindrical', 'rectangle', 'oblong', 'square', 'rectangular', 'block', 'round', 'oval', 'rounded', 'diamond_shaped', 'diamond', 'octagon', 'octagonal', 'chain', 'chain_link', 'chainlink', 'wire', 'shaped', 'triangle', 'triangular'	  0.4518772378516622
+'nearby', 'close', 'around', 'facing', 'beside', 'side_by_side', 'distant', 'far_away', 'in_the_distance', 'distance', 'in_distance', 'far'	  0.7566707818930041
+'overhead', 'mounted', 'upholstered', 'docked', 'raised', 'rising', 'lifted', 'top', 'on_top', 'elevated', 'low', 'lower', 'ground', 'spread', 'on_ground', 'sleeping', 'lying_down', 'upside_down', 'resting', 'laying', 'lying', 'laying_down', 'looking_up', 'looking_down'	  0.6683680555555552
+'sparse', 'dense'	  0.6506010928961748
+'in_motion', 'moving', 'going', 'shopping', 'running', 'walking', 'crashing', 'stopped'	  0.9201361895304297
+'swinging', 'balancing', 'perched', 'sticking_out'	Number of classes ==  1, hence skipping this cluster
+'staring', 'watching'	Number of classes ==  1, hence skipping this cluster
+'hitting', 'throwing', 'spraying', 'sprinkled', 'splashing', 'waving', 'carrying', 'enjoying', 'performing'	  0.9445454545454546
+'attached', 'connected', 'recessed'	Number of classes ==  1, hence skipping this cluster
+'gree', 'existing', 'visable', 'shingled'	  0.4765294117647058
+'crouching', 'kneeling', 'squatting', 'crouched', 'fallen', 'falling'	  0.8457142857142858
+'fuzzy', 'blurred', 'hazy', 'blurry', 'focused'	  0.9680103550295858
+'warning', 'sign', 'stop_sign', 'street_sign', 'for_sale', 'alert', 'stop'	Number of classes ==  1, hence skipping this cluster
+'covering', 'covered', 'hidden', 'gloved', 'hooded', 'wrapped'	Number of classes ==  1, hence skipping this cluster
+'bottom', 'hind', 'tail'	  0.7839655172413793
+'plush', 'fluffy', 'padded', 'feathered', 'wooly', 'shaggy', 'puffy', 'furry'	Number of classes ==  1, hence skipping this cluster
+'sloped', 'sliding', 'slanted', 'tilted', 'steep', 'sheer'	Number of classes ==  1, hence skipping this cluster
+'writing', 'reading', 'working', 'written', 'talking'	Number of classes ==  1, hence skipping this cluster
+'preparing', 'made', 'ready', 'artificial', 'real', 'fake'	  0.7548692810457517
+'hand', 'wrist', 'setting', 'serving', 'holding', 'held'	  0.8779257907542578
+'model', 'posing', 'professional', 'looking', 'bold', 'strong', 'advertisement', 'advertising', 'cast', 'commercial'	  0.8411639849366656
+'edge', 'edged', 'shut', 'closed', 'unopened', 'enclosed', 'apart', 'open', 'opened'	  0.6540579710144928
+'pair', 'paired', 'a_pair', 'double', 'numbered', 'multiple', 'together', 'many', 'different', 'mixed', 'first', 'second', 'middle', 'several', 'bunch', 'bunched', 'set', 'one', 'alone', 'lone', 'single', 'row', 'in_row', 'in_a_row'	  0.41375554569653955
+'part', 'partial', 'whole', 'half_full', 'half', 'empty', 'blank', 'missing', 'filled', 'full'	  0.43395454545454554
+'pulled_back', 'drawn'	Number of classes ==  1, hence skipping this cluster
+'displayed', 'on_display', 'display', 'showing', 'exposed'	Number of classes ==  1, hence skipping this cluster
+'heavy', 'solid', 'cut', 'trimmed', 'pieces', 'section', 'cutting', 'cut_up', 'piece', 'torn', 'shredded', 'breaking', 'broken', 'chipped', 'cracked', 'sharp', 'pointy', 'spiky', 'pointed'	  0.6494652908067542

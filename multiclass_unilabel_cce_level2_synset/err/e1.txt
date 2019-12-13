@@ -1,0 +1,16 @@
+Traceback (most recent call last):
+  File "run_train.py", line 22, in <module>
+    trainer.train()
+  File "/dccstor/cssblr/amrita/Concept_Catalog_VQA/multiclass_multilabel_bce/trainer.py", line 97, in train
+    epoch_loss, epoch_score = self.train_epoch(epoch)
+  File "/dccstor/cssblr/amrita/Concept_Catalog_VQA/multiclass_multilabel_bce/trainer.py", line 51, in train_epoch
+    for train_data_batch, labels_batch, glove_emb in self.train_loader:#.get_batch_posneg_data(self.data_distribution_specific_sampling)            
+  File "/dccstor/cssblr/amrita/miniconda3/envs/py3.6/lib/python3.6/site-packages/torch/utils/data/dataloader.py", line 615, in __next__
+    batch = self.collate_fn([self.dataset[i] for i in indices])
+  File "/dccstor/cssblr/amrita/miniconda3/envs/py3.6/lib/python3.6/site-packages/torch/utils/data/dataloader.py", line 615, in <listcomp>
+    batch = self.collate_fn([self.dataset[i] for i in indices])
+  File "/dccstor/cssblr/amrita/Concept_Catalog_VQA/multiclass_multilabel_bce/datasets/visual_genome_attribute_object.py", line 95, in __getitem__
+    image_region = self.get_image_region(self.data[idx])
+  File "/dccstor/cssblr/amrita/Concept_Catalog_VQA/multiclass_multilabel_bce/datasets/visual_genome_attribute_object.py", line 74, in get_image_region
+    image = cv2.imread(image_file)
+KeyboardInterrupt

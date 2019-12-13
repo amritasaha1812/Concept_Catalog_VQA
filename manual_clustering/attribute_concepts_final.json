@@ -1,0 +1,1481 @@
+{
+ "0": [
+  "messy",
+  "cluttered"
+ ],
+ "1": [
+  "disposable",
+  "dirty",
+  "garbage",
+  "trash",
+  "dirt"
+ ],
+ "2": [
+  "wet",
+  "shower"
+ ],
+ "3": [
+  "dry"
+ ],
+ "4": [
+  "clean",
+  "neat",
+  "decorated",
+  "manicured",
+  "decoration"
+ ],
+ "5": [
+  "pile",
+  "piled",
+  "stack",
+  "stacked",
+  "grouped",
+  "group",
+  "scattered",
+  "gathered",
+  "arranged"
+ ],
+ "6": [
+  "sliced",
+  "peeled",
+  "peeling",
+  "parted",
+  "halved",
+  "slices",
+  "slice",
+  "diced",
+  "chopped"
+ ],
+ "7": [
+  "electronic",
+  "power",
+  "turned_on",
+  "wireless",
+  "digital",
+  "signal",
+  "wii",
+  "wired"
+ ],
+ "8": [
+  "hanging",
+  "suspended"
+ ],
+ "9": [
+  "clock"
+ ],
+ "10": [
+  "office"
+ ],
+ "11": [
+  "ceiling"
+ ],
+ "12": [
+  "kitchen",
+  "bathroom",
+  "toilet"
+ ],
+ "13": [
+  "dining"
+ ],
+ "14": [
+  "floor",
+  "carpeted",
+  "concrete",
+  "tiled",
+  "tile",
+  "bricks"
+ ],
+ "15": [
+  "clay",
+  "stone",
+  "ceramic",
+  "marble",
+  "porcelain",
+  "asphalt",
+  "brick",
+  "cement",
+  "granite",
+  "cardboard",
+  "bricked"
+ ],
+ "16": [
+  "bamboo"
+ ],
+ "17": [
+  "paper",
+  "letter"
+ ],
+ "18": [
+  "iron",
+  "brass",
+  "wrought_iron"
+ ],
+ "19": [
+  "painted",
+  "canvas"
+ ],
+ "20": [
+  "utility"
+ ],
+ "21": [
+  "corner"
+ ],
+ "22": [
+  "door",
+  "window",
+  "windshield"
+ ],
+ "23": [
+  "wall",
+  "table",
+  "red_brick"
+ ],
+ "24": [
+  "cloudless",
+  "sunlit"
+ ],
+ "25": [
+  "sitting",
+  "seated",
+  "sitting_down",
+  "hanging_down"
+ ],
+ "26": [
+  "wine",
+  "soda",
+  "beer"
+ ],
+ "27": [
+  "ripe",
+  "sweet",
+  "fresh"
+ ],
+ "28": [
+  "unripe"
+ ],
+ "29": [
+  "cream",
+  "creamy"
+ ],
+ "30": [
+  "coffee"
+ ],
+ "31": [
+  "cherry"
+ ],
+ "32": [
+  "banana"
+ ],
+ "33": [
+  "apple"
+ ],
+ "34": [
+  "picture",
+  "pictured",
+  "framed",
+  "in_the_picture",
+  "in_picture"
+ ],
+ "35": [
+  "happy",
+  "beautiful",
+  "smiling",
+  "fancy",
+  "laughing",
+  "cute"
+ ],
+ "36": [
+  "wedding",
+  "christmas",
+  "birthday"
+ ],
+ "37": [
+  "baby"
+ ],
+ "38": [
+  "teddy",
+  "teddy_bear",
+  "toy",
+  "stuffed"
+ ],
+ "39": [
+  "sad"
+ ],
+ "40": [
+  "landing",
+  "flying",
+  "air",
+  "taking_off",
+  "plane",
+  "jet",
+  "airborne"
+ ],
+ "41": [
+  "yellow",
+  "amber",
+  "bright_yellow",
+  "yellowish"
+ ],
+ "42": [
+  "chalk",
+  "white",
+  "whtie",
+  "ivory",
+  "bright",
+  "vanilla",
+  "white_colored",
+  "salt",
+  "pale",
+  "is_white",
+  "white.",
+  "bright_white"
+ ],
+ "43": [
+  "used",
+  "faded",
+  "grey",
+  "gray",
+  "light_gray",
+  "light_grey",
+  "dark_gray",
+  "dark_grey"
+ ],
+ "44": [
+  "black",
+  "dark",
+  "wearing_black",
+  "dark_colored",
+  "is_black"
+ ],
+ "45": [
+  "colored",
+  "tinted",
+  "transparent",
+  "color",
+  "matching",
+  "stained"
+ ],
+ "46": [
+  "colorful",
+  "brightly_colored",
+  "multi_colored",
+  "multicolored",
+  "rainbow",
+  "rainbow_colored",
+  "multi-colored"
+ ],
+ "47": [
+  "background",
+  "in_the_background",
+  "in_background"
+ ],
+ "48": [
+  "peach",
+  "pink",
+  "beige",
+  "light_skinned",
+  "light-skinned",
+  "off_white",
+  "light_colored",
+  "light-colored",
+  "cream_colored",
+  "off-white",
+  "light_pink"
+ ],
+ "49": [
+  "lavender",
+  "blue",
+  "sky",
+  "is_blue",
+  "purple",
+  "deep_blue",
+  "pale_blue",
+  "clear_blue",
+  "navy_blue",
+  "navy",
+  "light_blue",
+  "dark_blue",
+  "bright_blue"
+ ],
+ "50": [
+  "turquoise",
+  "teal",
+  "green",
+  "neon_green",
+  "light_green",
+  "greenish",
+  "bright_green",
+  "lime_green",
+  "dark_green",
+  "is_green"
+ ],
+ "51": [
+  "silver",
+  "golden",
+  "gold",
+  "ornate",
+  "decorative",
+  "bronze",
+  "shiny",
+  "copper",
+  "golden_brown",
+  "metallic",
+  "metalic",
+  "metal",
+  "aluminum",
+  "stainless_steel",
+  "steel",
+  "stainless",
+  "chrome",
+  "tin"
+ ],
+ "52": [
+  "styrofoam",
+  "foamy"
+ ],
+ "53": [
+  "plastic",
+  "rubber"
+ ],
+ "54": [
+  "brown",
+  "burgundy",
+  "maroon",
+  "tan",
+  "is_brown",
+  "dark_brown",
+  "browned",
+  "brownish",
+  "dark_red",
+  "light_brown",
+  "burned",
+  "burnt",
+  "damaged"
+ ],
+ "55": [
+  "orange",
+  "red",
+  "reddish",
+  "is_red",
+  "bright_red",
+  "bright_orange"
+ ],
+ "56": [
+  "soft"
+ ],
+ "57": [
+  "hard"
+ ],
+ "58": [
+  "protective"
+ ],
+ "59": [
+  "brown_and_white",
+  "black_and_white",
+  "white_and_black"
+ ],
+ "60": [
+  "green_and_white",
+  "white_and_blue",
+  "blue_and_white"
+ ],
+ "61": [
+  "yellow_and_black",
+  "red_and_black"
+ ],
+ "62": [
+  "orange_and_white",
+  "red_white",
+  "red_and_white"
+ ],
+ "63": [
+  "african"
+ ],
+ "64": [
+  "american",
+  "caucasian",
+  "french"
+ ],
+ "65": [
+  "asian",
+  "chinese"
+ ],
+ "66": [
+  "roman",
+  "roman_numeral",
+  "number",
+  "five",
+  "three",
+  "two",
+  "four",
+  "six",
+  "word"
+ ],
+ "67": [
+  "driving",
+  "passenger",
+  "cargo",
+  "car"
+ ],
+ "68": [
+  "parking",
+  "parked"
+ ],
+ "69": [
+  "in_air",
+  "in_the_air",
+  "mid_air"
+ ],
+ "70": [
+  "license",
+  "safety"
+ ],
+ "71": [
+  "electric",
+  "fire",
+  "gas",
+  "electrical"
+ ],
+ "72": [
+  "skiing",
+  "ski"
+ ],
+ "73": [
+  "giraffe",
+  "giraffe's"
+ ],
+ "74": [
+  "horse",
+  "horse's"
+ ],
+ "75": [
+  "elephant",
+  "elephant's"
+ ],
+ "76": [
+  "zebra",
+  "zebra's"
+ ],
+ "77": [
+  "muscular",
+  "curvy"
+ ],
+ "78": [
+  "animal",
+  "wild",
+  "bird"
+ ],
+ "79": [
+  "bear",
+  "bear's",
+  "polar"
+ ],
+ "80": [
+  "frozen",
+  "iced",
+  "frosted",
+  "raw",
+  "uncooked",
+  "dried"
+ ],
+ "81": [
+  "healthy"
+ ],
+ "82": [
+  "food",
+  "feeding",
+  "eaten",
+  "eating",
+  "half_eaten"
+ ],
+ "83": [
+  "cooked",
+  "cooking",
+  "steamed",
+  "roasted",
+  "grilled",
+  "fat",
+  "seasoned"
+ ],
+ "84": [
+  "bike",
+  "bicycle",
+  "motorcycle"
+ ],
+ "85": [
+  "chocolate",
+  "cake"
+ ],
+ "86": [
+  "dog",
+  "cat",
+  "tabby",
+  "cat's",
+  "dog's"
+ ],
+ "87": [
+  "straw",
+  "lace"
+ ],
+ "88": [
+  "logo"
+ ],
+ "89": [
+  "stripe",
+  "stripped",
+  "stripes",
+  "striped"
+ ],
+ "90": [
+  "plaid",
+  "checkered",
+  "checked"
+ ],
+ "91": [
+  "leather",
+  "camo",
+  "camouflage",
+  "khaki",
+  "military"
+ ],
+ "92": [
+  "print",
+  "printed"
+ ],
+ "93": [
+  "wearing",
+  "worn"
+ ],
+ "94": [
+  "fabric",
+  "cloth",
+  "wool",
+  "fur",
+  "cotton",
+  "knit",
+  "vintage"
+ ],
+ "95": [
+  "mesh",
+  "barbed",
+  "fence"
+ ],
+ "96": [
+  "knitted",
+  "woven"
+ ],
+ "97": [
+  "layered",
+  "textured",
+  "patterned",
+  "patch",
+  "patchy"
+ ],
+ "98": [
+  "blond",
+  "blonde"
+ ],
+ "99": [
+  "jeans",
+  "jean",
+  "denim"
+ ],
+ "100": [
+  "dress",
+  "dressed"
+ ],
+ "101": [
+  "shirt",
+  "button_down"
+ ],
+ "102": [
+  "shirtless"
+ ],
+ "103": [
+  "wavy",
+  "braided",
+  "curly"
+ ],
+ "104": [
+  "beaded"
+ ],
+ "105": [
+  "2",
+  "3"
+ ],
+ "106": [
+  "shining",
+  "illuminated",
+  "lit",
+  "light",
+  "lighted",
+  "fluorescent",
+  "lamp",
+  "lit_up",
+  "neon",
+  "glowing"
+ ],
+ "107": [
+  "polished",
+  "reflection",
+  "reflected",
+  "reflective",
+  "reflecting",
+  "glassy",
+  "glass",
+  "glazed",
+  "crystal"
+ ],
+ "108": [
+  "blowing"
+ ],
+ "109": [
+  "floating",
+  "upper",
+  "vertical",
+  "horizontal",
+  "upright"
+ ],
+ "110": [
+  "shingled"
+ ],
+ "111": [
+  "carved"
+ ],
+ "112": [
+  "wooden",
+  "wicker",
+  "antique",
+  "wood",
+  "made_of_wood"
+ ],
+ "113": [
+  "sandy",
+  "sand",
+  "dull",
+  "powdered",
+  "wispy",
+  "rusted",
+  "dusty",
+  "rusty"
+ ],
+ "114": [
+  "nike",
+  "polo",
+  "adidas"
+ ],
+ "115": [
+  "shaved",
+  "balding",
+  "bald"
+ ],
+ "116": [
+  "weathered",
+  "old_fashioned",
+  "elderly",
+  "older",
+  "old"
+ ],
+ "117": [
+  "brunette"
+ ],
+ "118": [
+  "hairy",
+  "hair",
+  "face",
+  "head",
+  "brow"
+ ],
+ "119": [
+  "collared"
+ ],
+ "120": [
+  "body"
+ ],
+ "121": [
+  "soap"
+ ],
+ "122": [
+  "dead",
+  "dying"
+ ],
+ "123": [
+  "young",
+  "modern",
+  "foreign",
+  "new"
+ ],
+ "124": [
+  "mother",
+  "woman",
+  "woman's",
+  "female"
+ ],
+ "125": [
+  "adult",
+  "person's",
+  "person",
+  "human",
+  "people"
+ ],
+ "126": [
+  "man",
+  "man's",
+  "mans",
+  "male"
+ ],
+ "127": [
+  "boy",
+  "boy's",
+  "girl's",
+  "child's"
+ ],
+ "128": [
+  "cheese",
+  "cheesy",
+  "melted"
+ ],
+ "129": [
+  "bread",
+  "toasted",
+  "wheat"
+ ],
+ "130": [
+  "tomato",
+  "pepper",
+  "vegetable",
+  "fruit"
+ ],
+ "131": [
+  "snowboarding",
+  "skateboard",
+  "skateboarding",
+  "skating"
+ ],
+ "132": [
+  "snow-covered",
+  "snow_covered",
+  "snow",
+  "winter",
+  "cold",
+  "snowy"
+ ],
+ "133": [
+  "overcast",
+  "partly_cloudy",
+  "stormy",
+  "foggy",
+  "cloudy"
+ ],
+ "134": [
+  "night"
+ ],
+ "135": [
+  "daytime"
+ ],
+ "136": [
+  "sunny",
+  "warm"
+ ],
+ "137": [
+  "floral",
+  "flower",
+  "flowered"
+ ],
+ "138": [
+  "herd",
+  "jumping",
+  "grazing",
+  "barefoot",
+  "racing",
+  "fenced",
+  "riding"
+ ],
+ "139": [
+  "jagged",
+  "bent",
+  "twisted",
+  "bent_over",
+  "bending_over",
+  "bending"
+ ],
+ "140": [
+  "hot",
+  "tropical"
+ ],
+ "141": [
+  "beach",
+  "ocean",
+  "water",
+  "aqua",
+  "flowing"
+ ],
+ "142": [
+  "outdoor",
+  "outdoors"
+ ],
+ "143": [
+  "inside",
+  "indoors"
+ ],
+ "144": [
+  "rocky",
+  "gravel",
+  "rock"
+ ],
+ "145": [
+  "drinking"
+ ],
+ "146": [
+  "relaxing"
+ ],
+ "147": [
+  "swimming",
+  "surfing",
+  "surfer"
+ ],
+ "148": [
+  "deep",
+  "shallow"
+ ],
+ "149": [
+  "muddy",
+  "murky"
+ ],
+ "150": [
+  "clear"
+ ],
+ "151": [
+  "barren",
+  "bare"
+ ],
+ "152": [
+  "laptop",
+  "computer",
+  "portable"
+ ],
+ "153": [
+  "telephone",
+  "cell"
+ ],
+ "154": [
+  "pizza",
+  "delicious",
+  "pepperoni",
+  "tasty",
+  "homemade",
+  "fried",
+  "crispy",
+  "baked",
+  "assorted",
+  "juicy"
+ ],
+ "155": [
+  "tree",
+  "grassy",
+  "evergreen",
+  "bushy",
+  "pine",
+  "grass",
+  "mowed",
+  "palm",
+  "lush",
+  "wooded",
+  "shaded",
+  "overgrown",
+  "leafy",
+  "leafless",
+  "blooming",
+  "potted"
+ ],
+ "156": [
+  "athletic",
+  "playing",
+  "player's"
+ ],
+ "157": [
+  "tennis",
+  "tennis_player",
+  "for_tennis",
+  "playing_tennis"
+ ],
+ "158": [
+  "batting"
+ ],
+ "159": [
+  "tee",
+  "baseball",
+  "playing_baseball",
+  "for_baseball",
+  "baseball_player"
+ ],
+ "160": [
+  "soccer"
+ ],
+ "161": [
+  "street",
+  "paved",
+  "city",
+  "railroad",
+  "tarmacked",
+  "cobblestone",
+  "traffic",
+  "road",
+  "area",
+  "one_way",
+  "crossed"
+ ],
+ "162": [
+  "crossing",
+  "pedestrian"
+ ],
+ "163": [
+  "building",
+  "two_story",
+  "home",
+  "building's"
+ ],
+ "164": [
+  "plain",
+  "field",
+  "park"
+ ],
+ "165": [
+  "public",
+  "crowded",
+  "busy"
+ ],
+ "166": [
+  "traveling",
+  "train",
+  "train's"
+ ],
+ "167": [
+  "police",
+  "bus",
+  "double_decker",
+  "double-decker"
+ ],
+ "168": [
+  "marked",
+  "speckled",
+  "spotted",
+  "dotted",
+  "polka_dot"
+ ],
+ "169": [
+  "directional",
+  "pointing"
+ ],
+ "170": [
+  "little",
+  "tiny",
+  "miniature",
+  "mini",
+  "short",
+  "small",
+  "smaller",
+  "compact"
+ ],
+ "171": [
+  "big",
+  "giant",
+  "massive",
+  "huge",
+  "large",
+  "larger",
+  "largest",
+  "very_large"
+ ],
+ "172": [
+  "medium_sized"
+ ],
+ "173": [
+  "tall",
+  "tallest",
+  "taller",
+  "very_tall",
+  "high"
+ ],
+ "174": [
+  "long",
+  "growing",
+  "extended",
+  "outstretched",
+  "wide",
+  "stretched"
+ ],
+ "175": [
+  "tight",
+  "narrow"
+ ],
+ "176": [
+  "slim",
+  "skinny",
+  "slender"
+ ],
+ "177": [
+  "reaching",
+  "coming"
+ ],
+ "178": [
+  "rear",
+  "rear_view",
+  "behind",
+  "in_back",
+  "back",
+  "backwards"
+ ],
+ "179": [
+  "on_the_right",
+  "on_right"
+ ],
+ "180": [
+  "on_left",
+  "on_the_left"
+ ],
+ "181": [
+  "side_view",
+  "side",
+  "sideways",
+  "on_side"
+ ],
+ "182": [
+  "in_front",
+  "in_foreground"
+ ],
+ "183": [
+  "center"
+ ],
+ "184": [
+  "circle",
+  "circular"
+ ],
+ "185": [
+  "cylindrical"
+ ],
+ "186": [
+  "rectangle",
+  "oblong",
+  "square",
+  "rectangular",
+  "block"
+ ],
+ "187": [
+  "round",
+  "oval",
+  "rounded"
+ ],
+ "188": [
+  "diamond_shaped",
+  "diamond",
+  "octagon",
+  "octagonal"
+ ],
+ "189": [
+  "chain",
+  "chain_link",
+  "chainlink",
+  "wire"
+ ],
+ "190": [
+  "shaped"
+ ],
+ "191": [
+  "triangle",
+  "triangular"
+ ],
+ "192": [
+  "nearby",
+  "close",
+  "around",
+  "facing",
+  "beside",
+  "side_by_side"
+ ],
+ "193": [
+  "distant",
+  "far_away",
+  "in_the_distance",
+  "distance",
+  "in_distance",
+  "far"
+ ],
+ "194": [
+  "overhead",
+  "mounted",
+  "upholstered",
+  "docked",
+  "raised",
+  "rising",
+  "lifted",
+  "top",
+  "on_top",
+  "elevated"
+ ],
+ "195": [
+  "low",
+  "lower",
+  "ground",
+  "spread",
+  "on_ground",
+  "sleeping",
+  "lying_down",
+  "upside_down",
+  "resting",
+  "laying",
+  "lying",
+  "laying_down",
+  "looking_up",
+  "looking_down"
+ ],
+ "196": [
+  "curved",
+  "crooked",
+  "angled",
+  "curled",
+  "rolled_up",
+  "arched",
+  "turning",
+  "turned"
+ ],
+ "197": [
+  "rolling",
+  "rolled",
+  "roll"
+ ],
+ "198": [
+  "hardwood",
+  "paneled"
+ ],
+ "199": [
+  "sparse"
+ ],
+ "200": [
+  "dense"
+ ],
+ "201": [
+  "shadowed",
+  "unlit",
+  "darker"
+ ],
+ "202": [
+  "in_motion",
+  "moving",
+  "going",
+  "shopping",
+  "running",
+  "walking"
+ ],
+ "203": [
+  "crashing",
+  "stopped"
+ ],
+ "204": [
+  "swinging",
+  "balancing",
+  "perched",
+  "sticking_out"
+ ],
+ "205": [
+  "hitting",
+  "throwing"
+ ],
+ "206": [
+  "spraying",
+  "sprinkled",
+  "splashing",
+  "waving",
+  "carrying",
+  "enjoying",
+  "performing"
+ ],
+ "207": [
+  "visable"
+ ],
+ "208": [
+  "existing"
+ ],
+ "209": [
+  "attached",
+  "connected",
+  "recessed"
+ ],
+ "210": [
+  "gree"
+ ],
+ "211": [
+  "crouching",
+  "kneeling",
+  "squatting",
+  "crouched"
+ ],
+ "212": [
+  "fallen",
+  "falling"
+ ],
+ "213": [
+  "fuzzy",
+  "blurred",
+  "hazy",
+  "blurry"
+ ],
+ "214": [
+  "focused"
+ ],
+ "215": [
+  "warning",
+  "sign",
+  "stop_sign",
+  "street_sign",
+  "for_sale",
+  "alert",
+  "stop"
+ ],
+ "216": [
+  "staring",
+  "watching"
+ ],
+ "217": [
+  "covering",
+  "covered",
+  "hidden",
+  "gloved",
+  "hooded",
+  "wrapped"
+ ],
+ "218": [
+  "bottom",
+  "hind"
+ ],
+ "219": [
+  "plush",
+  "fluffy",
+  "padded",
+  "feathered",
+  "wooly",
+  "shaggy",
+  "puffy",
+  "furry"
+ ],
+ "220": [
+  "sloped",
+  "sliding",
+  "slanted",
+  "tilted",
+  "steep",
+  "sheer"
+ ],
+ "221": [
+  "writing",
+  "reading",
+  "working",
+  "written",
+  "talking"
+ ],
+ "222": [
+  "preparing",
+  "made",
+  "ready"
+ ],
+ "223": [
+  "artificial",
+  "real",
+  "fake"
+ ],
+ "224": [
+  "hand",
+  "wrist"
+ ],
+ "225": [
+  "setting",
+  "serving",
+  "holding",
+  "held"
+ ],
+ "226": [
+  "model",
+  "posing",
+  "professional",
+  "looking",
+  "bold",
+  "strong"
+ ],
+ "227": [
+  "advertisement",
+  "advertising",
+  "cast",
+  "commercial"
+ ],
+ "228": [
+  "part",
+  "partial",
+  "whole"
+ ],
+ "229": [
+  "nice",
+  "lovely",
+  "pretty",
+  "designed"
+ ],
+ "230": [
+  "edge",
+  "edged"
+ ],
+ "231": [
+  "shut",
+  "closed",
+  "unopened",
+  "enclosed"
+ ],
+ "232": [
+  "apart",
+  "open",
+  "opened"
+ ],
+ "233": [
+  "pair",
+  "paired",
+  "a_pair",
+  "double"
+ ],
+ "234": [
+  "numbered",
+  "multiple",
+  "together",
+  "many",
+  "different",
+  "mixed",
+  "first",
+  "second",
+  "middle",
+  "several",
+  "bunch",
+  "bunched",
+  "set"
+ ],
+ "235": [
+  "one",
+  "alone",
+  "single",
+  "lone"
+ ],
+ "236": [
+  "half_full",
+  "half"
+ ],
+ "237": [
+  "empty",
+  "blank",
+  "missing"
+ ],
+ "238": [
+  "filled",
+  "full"
+ ],
+ "239": [
+  "packed",
+  "tied",
+  "present"
+ ],
+ "240": [
+  "pulled_back",
+  "drawn"
+ ],
+ "241": [
+  "displayed",
+  "on_display",
+  "display",
+  "showing",
+  "exposed"
+ ],
+ "242": [
+  "standing_up",
+  "standing",
+  "lined_up",
+  "statue",
+  "support",
+  "leaning",
+  "lined",
+  "line",
+  "straight",
+  "parallel",
+  "still",
+  "waiting"
+ ],
+ "243": [
+  "long_sleeved",
+  "long_sleeve",
+  "long-sleeved"
+ ],
+ "244": [
+  "short_sleeve",
+  "short_sleeved",
+  "short-sleeved",
+  "sleeveless"
+ ],
+ "245": [
+  "medium"
+ ],
+ "246": [
+  "tail"
+ ],
+ "247": [
+  "sharp",
+  "pointy",
+  "spiky",
+  "pointed"
+ ],
+ "248": [
+  "heavy",
+  "solid"
+ ],
+ "249": [
+  "cut",
+  "trimmed",
+  "pieces",
+  "section",
+  "cutting",
+  "cut_up",
+  "piece",
+  "torn",
+  "shredded",
+  "breaking",
+  "broken",
+  "chipped",
+  "cracked"
+ ],
+ "250": [
+  "thin",
+  "thick"
+ ],
+ "251": [
+  "loose",
+  "floppy"
+ ],
+ "252": [
+  "row",
+  "in_row",
+  "in_a_row"
+ ],
+ "253": [
+  "flat_screen",
+  "flat",
+  "smooth",
+  "calm"
+ ],
+ "254": [
+  "rippled",
+  "ridged",
+  "rippling",
+  "wrinkled",
+  "wrinkly",
+  "crumpled",
+  "folded",
+  "folding",
+  "ruffled",
+  "uneven",
+  "choppy",
+  "rough"
+ ]
+}
